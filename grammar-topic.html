@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>Граматична тема · Грецький спринт</title>
+  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="grammar.css?v=2">
+  <script src="grammar.js?v=3" defer></script>
+</head>
+<body>
+  <main class="app grammar-app">
+    <header><a class="brand brand-link" href="/">ΕΛΛΗΝΙΚΑ <span>·</span> СПРИНТ</a><div class="tag">уроки · читання · словник · граматика</div></header>
+    <section class="panel grammar-panel">
+      <div class="reading-head"><div><p class="label">Граматика · тема</p><h1 id="grammar-title">Граматична тема</h1></div><a class="secondary small-button grammar-back" href="grammar.html">← Усі теми</a></div>
+      <article id="grammar-topic" class="grammar-topic" aria-live="polite">
+        <p class="grammar-source" id="grammar-source"></p>
+        <p class="grammar-explanation" id="grammar-explanation"></p>
+        <div id="grammar-patterns" class="grammar-patterns"></div>
+        <div class="grammar-examples-wrap"><h3>Приклади</h3><div id="grammar-examples" class="grammar-examples"></div></div>
+        <section class="grammar-practice" aria-labelledby="practice-title">
+          <div class="grammar-practice-head"><div><p class="label">Тренування</p><h3 id="practice-title">Підбери правильну форму</h3></div><span id="practice-progress"></span></div>
+          <p class="practice-prompt" id="practice-prompt"></p>
+          <div class="practice-noun"><strong id="practice-noun" lang="el"></strong><span id="practice-meaning"></span></div>
+          <div id="practice-options" class="practice-options"></div>
+          <p id="practice-feedback" class="practice-feedback" role="status" aria-live="polite"></p>
+          <button id="practice-next" class="yes hidden">Наступний приклад →</button>
+        </section>
+      </article>
+      <div id="grammar-error" class="grammar-error hidden" role="status"></div>
+    </section>
+  </main>
+</body>
+</html>

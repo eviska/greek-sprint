@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>Урок грецької · Грецький спринт</title>
+  <link rel="stylesheet" href="/lesson-page.css?v=3">
+  <script src="/lesson-page.js?v=3" defer></script>
+</head>
+<body>
+  <header class="lesson-topbar">
+    <a class="lesson-brand" href="/">ΕΛΛΗΝΙΚΑ <span>·</span> СПРИНТ</a>
+    <a class="back-link" href="/">← Усі матеріали</a>
+  </header>
+  <main class="lesson-shell" id="lesson-main">
+    <section class="lesson-hero">
+      <p class="eyebrow" id="lesson-level">Урок грецької</p>
+      <h1 id="lesson-title">Завантажую урок…</h1>
+      <p class="lesson-description" id="lesson-description"></p>
+      <div class="hero-links"><a id="lesson-pdf" target="_blank" rel="noopener">Оригінальний PDF ↗</a><span id="lesson-save-status" role="status"></span></div>
+      <div class="progress-wrap"><div class="progress-track"><div id="progress-fill"></div></div><span id="progress-label"></span></div>
+    </section>
+    <nav class="lesson-toc" aria-label="Зміст уроку">
+      <a href="#vocabulary">Словник</a><a href="#lesson-sprint">Мініспринт</a><a href="#grammar">Граматика й підказки</a><a href="#reading">Текст</a><a href="#exercises">Вправи</a><a href="#writing">Письмо</a>
+    </nav>
+    <section class="lesson-section" id="vocabulary">
+      <div class="section-heading"><div><p class="eyebrow">Тримай під рукою</p><h2>Словник цього уроку</h2></div><label class="vocab-search">Знайти слово<input id="vocab-search" type="search" placeholder="Грецьке слово або переклад"></label></div>
+      <p class="section-intro">Словник залишається на цій сторінці, тож до нього легко повернутися під час вправ.</p>
+      <div class="unit-vocabulary" id="unit-vocabulary"></div>
+      <section class="lesson-sprint" id="lesson-sprint" aria-labelledby="lesson-sprint-title">
+        <div class="lesson-sprint-head"><div><p class="eyebrow">Швидка практика</p><h3 id="lesson-sprint-title">Мініспринт зі словами уроку</h3></div><span id="lesson-sprint-count"></span></div>
+        <p class="section-intro">Перевіряй переклади у форматі «правда / неправда». За раунд буде до десяти випадкових слів із цього матеріалу.</p>
+        <div id="lesson-sprint-start" class="lesson-sprint-start"><button type="button" id="lesson-sprint-start-button">Почати мініспринт →</button></div>
+        <div id="lesson-sprint-game" class="lesson-sprint-game hidden" aria-live="polite">
+          <div class="lesson-sprint-progress"><span id="lesson-sprint-question-number"></span><span id="lesson-sprint-score"></span></div>
+          <div class="lesson-sprint-card"><h4 id="lesson-sprint-greek" lang="el"></h4><p class="lesson-sprint-translation" id="lesson-sprint-translation"></p></div>
+          <div class="lesson-sprint-actions"><button type="button" class="sprint-true" id="lesson-sprint-true">Правда ✓</button><button type="button" class="sprint-false" id="lesson-sprint-false">Неправда ✕</button></div>
+          <p class="lesson-sprint-feedback" id="lesson-sprint-feedback" role="status"></p>
+          <button type="button" id="lesson-sprint-next" class="lesson-sprint-next hidden">Наступне слово →</button>
+        </div>
+        <div id="lesson-sprint-result" class="lesson-sprint-result hidden" role="status">
+          <strong id="lesson-sprint-final-score"></strong><span>Пройди ще раунд, щоб побачити інші слова, або переходь до граматики й вправ.</span>
+          <button type="button" id="lesson-sprint-again">Ще десять слів ↻</button>
+        </div>
+      </section>
+    </section>
+    <section class="lesson-section" id="grammar">
+      <p class="eyebrow">Коротка пам’ятка</p><h2>Граматика, що стане в пригоді</h2>
+      <div class="reference-grid" id="grammar-cards"></div>
+      <div class="fact-card"><span class="fact-icon">💡</span><div><strong>Цікавий мовний нюанс</strong><p>У кав’ярні часто питають <span lang="el">Πώς τον θέλετε;</span> — «Яку каву бажаєте?». Відповісти можна коротко: <span lang="el">Μέτριο, με λίγο γάλα.</span> — «Середньої солодкості, з невеликою кількістю молока».</p></div></div>
+    </section>
+    <section class="lesson-section" id="reading">
+      <p class="eyebrow">Контекст</p><h2 id="reading-title">Прочитай текст</h2>
+      <p class="section-intro">Словник вище доступний для повторення; шукай слово, якщо воно забулося.</p>
+      <article class="reading-passage" id="reading-passage" lang="el"></article>
+    </section>
+    <section class="lesson-section" id="exercises">
+      <p class="eyebrow">Практика</p><h2>Вправи</h2>
+      <p class="section-intro">Усі завдання зібрані на цій сторінці. Перевіряй кожну вправу, коли будеш готова; попередні відповіді залишаться видимими.</p>
+      <div id="exercise-list"></div>
+    </section>
+    <section class="lesson-section writing-section" id="writing">
+      <p class="eyebrow">Фінальне завдання</p><h2>Напиши власний текст</h2>
+      <p id="writing-instruction" class="section-intro"></p>
+      <textarea id="writing-draft" lang="el" rows="8" placeholder="Σάββατο πρωί…"></textarea>
+      <div class="writing-footer"><span id="writing-count">0 слів</span><button id="writing-complete" type="button">Зберегти чернетку й позначити виконаним</button></div>
+      <p id="writing-feedback" class="feedback" role="status"></p>
+      <aside class="writing-review" aria-labelledby="writing-review-title">
+        <p class="eyebrow">Відгук</p><h3 id="writing-review-title">Розбір твого тексту</h3>
+        <div id="writing-review-content" class="writing-review-content">Після перевірки тут з’являться виправлення й коментарі.</div>
+      </aside>
+    </section>
+    <footer class="lesson-footer"><a class="back-link" href="/">← Повернутися до Грецького спринту</a></footer>
+  </main>
+</body>
+</html>

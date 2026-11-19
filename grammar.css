@@ -1,0 +1,58 @@
+.grammar-app { width:min(100%,780px) }
+.brand-link { color:var(--ink);text-decoration:none }
+.grammar-panel { text-align:left }
+.grammar-panel .reading-head { margin-bottom:12px }
+.grammar-back { display:inline-flex;align-items:center;text-decoration:none }
+.grammar-intro { margin:0 0 18px;color:var(--muted) }
+.grammar-topic-list { display:grid;gap:12px }
+.grammar-topic-card { display:block;padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:#faf9f5;color:var(--ink);text-decoration:none;transition:transform .12s,border-color .12s,box-shadow .12s }
+.grammar-topic-card:hover { transform:translateY(-1px);border-color:#bdcfc0;box-shadow:0 8px 22px #2927190a }
+.grammar-topic-card:focus-visible { outline:3px solid #25251f;outline-offset:3px }
+.grammar-topic-card-top { display:flex;justify-content:space-between;gap:10px;align-items:center }
+.grammar-topic-number,.grammar-topic-exercises { color:var(--muted);font-size:11px;letter-spacing:.08em }
+.grammar-topic-card h2 { margin:9px 0 4px;font-size:20px;line-height:1.3 }
+.grammar-topic-card p { margin:0;color:#55564f;font-size:14px }
+.grammar-topic-origin { display:block;margin-top:10px;color:var(--muted);font-size:12px }
+.grammar-topic-open { display:block;margin-top:12px;color:var(--green);font-size:13px;font-weight:700 }
+.grammar-empty { padding:20px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:center }
+.grammar-topic h2 { margin:0 0 9px;font-size:25px;line-height:1.25 }
+.grammar-source { margin:0 0 7px;color:var(--muted);font-size:12px }
+.grammar-explanation { max-width:650px;margin:0 0 16px;color:#4c4d46 }
+.grammar-patterns { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:16px 0 20px }
+.grammar-pattern { padding:14px 10px;border:1px solid var(--line);border-radius:12px;background:#f7f6f1;text-align:center }
+.grammar-pattern strong { display:block;color:var(--green);font:700 20px/1.3 Georgia,"Times New Roman",serif }
+.grammar-pattern span { display:block;margin-top:3px;color:var(--muted);font-size:12px }
+.grammar-examples-wrap h3,.grammar-practice h3 { margin:0;font-size:18px }
+.grammar-examples { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-top:9px }
+.grammar-example { padding:12px;border-radius:11px;background:#faf9f5 }
+.grammar-example strong { display:block;font:600 17px/1.35 Georgia,"Times New Roman",serif }
+.grammar-example span { display:block;margin-top:4px;color:var(--muted);font-size:12px;line-height:1.4 }
+.grammar-practice { margin-top:24px;padding:20px;border:1px solid var(--line);border-radius:15px;background:#faf9f5;text-align:center }
+.grammar-practice-head { display:flex;align-items:flex-start;justify-content:space-between;gap:12px;text-align:left }
+.grammar-practice-head .label { margin-bottom:4px }
+.grammar-practice-head h3 { font-size:19px }
+.grammar-practice-head>span { padding-top:3px;color:var(--muted);font-size:12px;white-space:nowrap }
+.practice-prompt { margin:19px 0 7px;color:var(--muted);font-size:13px }
+.practice-noun { display:flex;justify-content:center;align-items:baseline;gap:9px;margin-bottom:16px }
+.practice-noun strong { font:600 27px/1.3 Georgia,"Times New Roman",serif }
+.practice-noun span { color:var(--muted);font-size:14px }
+.practice-options { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px }
+.practice-option { min-height:54px;padding:10px 8px;background:#eeece5;color:var(--ink);font:600 18px/1.2 Georgia,"Times New Roman",serif }
+.practice-option[aria-pressed="true"] { outline:2px solid var(--green);outline-offset:2px }
+.practice-option:disabled { opacity:.76 }
+.practice-option.correct { background:#e0efe4;color:var(--green) }
+.practice-option.incorrect { background:#f5e7e4;color:var(--red) }
+.practice-feedback { min-height:42px;margin:15px 0 8px;color:var(--muted);font-size:14px;line-height:1.45 }
+.practice-feedback.ok { color:var(--green) }.practice-feedback.miss { color:var(--red) }
+.grammar-note { margin:16px 0 0;color:var(--muted);font-size:12px }
+.grammar-error { padding:20px;border:1px solid #e8c7c2;border-radius:12px;color:var(--red);background:#fff8f7 }
+@media(max-width:560px) {
+  .grammar-patterns,.grammar-examples { grid-template-columns:1fr }
+  .grammar-pattern { display:flex;align-items:center;justify-content:space-between;text-align:left;padding:11px 13px }
+  .grammar-pattern span { margin:0;text-align:right }
+  .grammar-example { display:flex;align-items:baseline;justify-content:space-between;gap:10px }
+  .grammar-example span { text-align:right }
+  .grammar-practice { padding:17px 13px }
+  .practice-options { grid-template-columns:1fr }
+  .practice-option { min-height:48px }
+}

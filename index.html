@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>Грецький спринт</title>
+  <link rel="stylesheet" href="styles.css?v=6">
+  <script src="app.js?v=6" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header><div class="brand">ΕΛΛΗΝΙΚΑ <span>·</span> СПРИНТ</div><div class="tag">уроки · читання · словник · спринт</div></header>
+    <section class="panel" id="intro">
+      <div class="start">
+        <p class="label">Швидка практика</p>
+        <h1>Перевір переклад.<br>Не затримуйся.</h1>
+        <p>Короткі грецькі звороти, слова й запитання. Нові та складні картки траплятимуться частіше, знайомі час від часу повертатимуться.</p>
+        <div class="records">
+          <div><strong id="deck-count">—</strong>карток</div>
+          <div><strong id="new-count">—</strong>нових</div>
+          <div><strong id="due-count">—</strong>час повторити</div>
+        </div>
+        <div class="records">
+          <div><strong id="best">0</strong>найкращий рахунок</div>
+          <div><strong id="played">0</strong>раундів</div>
+          <div><strong id="total-correct">0</strong>правильних</div>
+        </div>
+        <p class="storage-note" id="storage-note">Прогрес зберігається локально у файлі проєкту.</p>
+        <div class="home-actions">
+          <button class="yes" id="start" disabled>Завантажую картки…</button>
+          <button class="secondary" id="open-reading" disabled>Читати тексти</button>
+          <button class="secondary" id="open-lessons" disabled>Уроки</button>
+          <button class="secondary" id="open-vocabulary" disabled>Словник карток</button>
+          <button class="secondary" id="open-writing" disabled>Письмо</button>
+          <a class="secondary home-link" href="grammar.html">Граматика</a>
+        </div>
+        <p class="load-error hidden" id="load-error"></p>
+      </div>
+    </section>
+    <section class="panel hidden" id="writing">
+      <div class="reading-head"><div><p class="label">Окреме тренування</p><h1>Написання слів</h1></div><button class="secondary small-button" id="writing-home">← До спринту</button></div>
+      <div class="writing-toolbar">
+        <label class="vocabulary-control">Добірка слів<select id="writing-source"><option value="all">Усі активні слова</option></select></label>
+        <p id="writing-count" class="writing-count"></p>
+      </div>
+      <div class="writing-card">
+        <div class="writing-progress"><span id="writing-step">Слово 1 з 5</span><span id="writing-known">0 складено</span></div>
+        <p class="writing-prompt-label" id="writing-prompt-label">Подивись на слово і переклад</p>
+        <h2 class="writing-prompt" id="writing-prompt" lang="el">—</h2>
+        <p class="writing-meaning" id="writing-meaning"></p>
+        <p class="writing-source" id="writing-card-source"></p>
+        <button class="yes writing-begin" id="writing-begin">Скласти слово →</button>
+        <div id="writing-builder" class="hidden">
+          <p class="writing-instruction" id="writing-instruction">Перетягни літери в потрібному порядку або натискай на них.</p>
+          <div class="letter-slots" id="letter-slots" aria-label="Місце для складання слова"></div>
+          <div class="letter-bank" id="letter-bank" aria-label="Доступні літери"></div>
+          <label class="writing-type-label" for="writing-answer">Або набери грецькою</label>
+          <input id="writing-answer" lang="el" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Грецькі літери…">
+          <div class="writing-actions"><button class="secondary small-button" id="writing-undo">← Скасувати літеру</button><button class="secondary small-button" id="writing-clear">Очистити</button><button class="yes" id="writing-check">Перевірити ✓</button></div>
+        </div>
+        <p class="writing-feedback" id="writing-feedback" role="status" aria-live="polite"></p>
+        <button class="yes hidden" id="writing-next">Наступне слово →</button>
+      </div>
+      <p class="writing-footnote">Ти можеш складати літери мишкою, торкатися їх або набирати на клавіатурі.</p>
+    </section>
+    <section class="panel hidden" id="lessons">
+      <div class="reading-head"><div><p class="label">Навчальні матеріали</p><h1>Уроки</h1></div><button class="secondary small-button" id="lessons-home">← До спринту</button></div>
+      <p class="reading-hint">Кожен урок зберігається окремо. Відповіді, прогрес і чернетка письмового завдання зберігаються локально.</p>
+      <div class="story-list" id="lesson-list"></div>
+    </section>
+    <section class="panel hidden" id="reading">
+      <div class="reading-head"><div><p class="label">Бібліотека текстів</p><h1>Читання</h1></div><button class="secondary small-button" id="reading-home">← До спринту</button></div>
+      <div id="story-list-view">
+        <p class="reading-hint">Вибери історію. Наведи курсор або натисни підсвічену фразу, щоб побачити переклад.</p>
+        <div class="story-list" id="story-list"></div>
+      </div>
+      <article class="story-reader hidden" id="story-reader">
+        <button class="secondary small-button back-stories" id="back-to-stories">← До списку текстів</button>
+        <p class="label" id="story-perspective"></p>
+        <h2 id="story-title"></h2>
+        <div class="story-text" id="story-text" lang="el"></div>
+      </article>
+    </section>
+    <section class="panel hidden" id="vocabulary">
+      <div class="reading-head"><div><p class="label">Мої матеріали</p><h1>Словник карток</h1></div><button class="secondary small-button" id="vocabulary-home">← До спринту</button></div>
+      <p class="vocabulary-summary" id="vocabulary-summary"></p>
+      <p class="storage-note" id="vocabulary-notice" role="status" aria-live="polite"></p>
+      <div class="vocabulary-toolbar">
+        <label class="vocabulary-control">Пошук<input id="vocabulary-search" type="search" placeholder="Грецьке слово або переклад"></label>
+        <label class="vocabulary-control">Показати<select id="vocabulary-filter"><option value="active">Для тренування</option><option value="paused">Відомі · призупинені</option><option value="all">Усі картки</option></select></label>
+        <label class="vocabulary-control">Матеріал<select id="vocabulary-source"><option value="all">Усі уроки й тексти</option></select></label>
+        <label class="vocabulary-control">Сортувати
+          <select id="vocabulary-sort"><option value="mastery-asc">Спочатку найменш вивчені</option><option value="mastery-desc">Спочатку найкраще знайомі</option><option value="greek">За грецьким текстом</option></select>
+        </label>
+      </div>
+      <p class="mastery-legend"><span><i class="mastery-dot mastery-dot-low"></i> 0 — ще не правильна</span><span><i class="mastery-dot mastery-dot-high"></i> 5+ — добре знайома</span></p>
+      <div class="vocabulary-list" id="vocabulary-list"></div>
+      <div class="pagination"><button class="secondary small-button" id="vocabulary-prev">← Назад</button><span id="vocabulary-page"></span><button class="secondary small-button" id="vocabulary-next">Далі →</button></div>
+    </section>
+    <section class="panel hidden" id="game" aria-live="polite">
+      <div class="topline"><span>Рахунок <strong id="score">0</strong></span><span class="time" id="time">01:00</span></div>
+      <div class="track" aria-hidden="true"><div class="fill" id="fill"></div></div>
+      <p class="label card-label" id="card-label">Грецька фраза</p>
+      <h2 class="greek" id="greek">—</h2>
+      <div class="translation">Це означає:</div>
+      <p class="meaning" id="meaning">—</p>
+      <div class="actions"><button class="yes" id="true">Правда <span aria-hidden="true">✓</span></button><button class="no" id="false">Неправда <span aria-hidden="true">✕</span></button></div>
+      <p class="feedback" id="feedback" role="status"></p>
+      <div class="bottom"><span><kbd>←</kbd> Правда &nbsp; <kbd>→</kbd> Неправда</span><span>Влучно: <strong id="streak">0</strong> поспіль</span></div>
+      <button class="secondary small-button" id="game-reading">Читати тексти</button>
+    </section>
+    <section class="panel hidden" id="result">
+      <div class="result">
+        <p class="label">Спринт завершено</p><h1>Підсумок раунду</h1>
+        <div class="summary">
+          <div><strong id="final-score">0</strong>правильно</div>
+          <div><strong id="true-count">0</strong>правда</div>
+          <div><strong id="false-count">0</strong>неправда</div>
+          <div><strong id="error-count">0</strong>помилки</div>
+        </div>
+        <div class="review"><h2>Відповіді раунду</h2><div id="review-list"></div></div>
+        <div class="home-actions"><button class="yes" id="again">Ще один раунд ↻</button><button class="secondary" id="result-reading">Читати тексти</button></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

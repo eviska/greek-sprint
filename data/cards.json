@@ -1,0 +1,4741 @@
+[
+  {
+    "id": "e87632f8-1e2f-4a48-9275-ca3e2f281341",
+    "greek": "με το αυτοκίνητό του",
+    "ukrainian": "своїм автомобілем",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "a9b17bf2-54af-4f93-a3b2-06d395ceebef",
+    "greek": "στη δουλειά του",
+    "ukrainian": "на його роботу; на роботі",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "5515d88d-31a5-4872-b06e-0d36fd93f608",
+    "greek": "κάθε πρωί",
+    "ukrainian": "щоранку",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "0c22c4a4-c3cd-48fe-b44b-c406d882d727",
+    "greek": "στις έξι",
+    "ukrainian": "о шостій",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "6dee02ef-5924-4820-842f-d3bb44a3c09f",
+    "greek": "σηκώνεται στις έξι",
+    "ukrainian": "встає о шостій",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "08244325-201e-4431-944c-f3dc9e382649",
+    "greek": "φτιάχνει πρωινό",
+    "ukrainian": "готує сніданок",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "d3433cef-eb49-4c5f-bc20-5a68d42accb5",
+    "greek": "πίνει καφέ",
+    "ukrainian": "п’є каву",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "547a08e5-4d4f-4766-9c4d-f353c0142453",
+    "greek": "πηγαίνει στη δουλειά",
+    "ukrainian": "їде / ходить на роботу",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "803f3f76-ce6e-4753-a770-3f9f3630de00",
+    "greek": "η δουλειά του",
+    "ukrainian": "його робота",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "fa07120a-a624-439d-bef3-f74586baf261",
+    "greek": "ξεκινάει στις εφτά και τριάντα",
+    "ukrainian": "починається о сьомій тридцять",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "3e33144e-c8fd-4ba1-9eb1-82fd10f4cf32",
+    "greek": "σε ένα εστιατόριο",
+    "ukrainian": "у ресторані",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "d6672c1c-d2ba-4ef3-9059-a4ab8f3dafac",
+    "greek": "φτιάχνει φαγητό",
+    "ukrainian": "готує їжу",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "d8593832-5a49-433c-a83d-f330273fca94",
+    "greek": "για πεινασμένους πελάτες",
+    "ukrainian": "для голодних клієнтів",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "ee22eba9-c4e1-4c53-8651-160c2fa28459",
+    "greek": "από πολλές χώρες",
+    "ukrainian": "з багатьох країн",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "4ad8e0f1-8c93-4b8c-81be-af7b2e3595e0",
+    "greek": "μιλούν πολλές γλώσσες",
+    "ukrainian": "розмовляють багатьма мовами",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "a14458d5-95bb-4965-83c7-1eea2ea830aa",
+    "greek": "διαφορετικές γλώσσες",
+    "ukrainian": "різні мови",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "4187ae73-7698-4771-9bfe-9b1a416a6962",
+    "greek": "μπορεί να συναντήσει",
+    "ukrainian": "може зустріти",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "e4be1ef1-1014-4938-a2cf-decc9691c282",
+    "greek": "πολλούς φιλικούς ανθρώπους",
+    "ukrainian": "багатьох привітних людей",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "003263f1-ab88-4d61-aeb1-70e9ad8d850c",
+    "greek": "είναι ευτυχισμένος",
+    "ukrainian": "щасливий",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "116877ab-c78e-47a2-bf88-8be2646eacb0",
+    "greek": "στους πελάτες",
+    "ukrainian": "з клієнтами; клієнтам",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "d796238d-464f-485a-9498-6d02ebffe495",
+    "greek": "σηκώνομαι",
+    "ukrainian": "вставати",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "5797819a-6418-4bbe-be6e-b64f29332078",
+    "greek": "το πρωινό",
+    "ukrainian": "сніданок",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "e80e3cf7-1029-4cca-a1cf-1a633aa49ff8",
+    "greek": "πίνω",
+    "ukrainian": "пити",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "196bcf34-e6f8-4d6c-a0ed-e640e047abbc",
+    "greek": "η δουλειά",
+    "ukrainian": "робота",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "12b15428-9363-4184-ab2b-15b768eacfc0",
+    "greek": "το αυτοκίνητο",
+    "ukrainian": "автомобіль",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "0d174358-78d1-4cdf-9f86-f23322d74adf",
+    "greek": "το εστιατόριο",
+    "ukrainian": "ресторан",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "098f5352-1765-4381-a8b2-78a6242aeb05",
+    "greek": "ο πελάτης",
+    "ukrainian": "клієнт",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "6eed59ec-c03d-489d-804d-b85ff423ccc2",
+    "greek": "η χώρα",
+    "ukrainian": "країна",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "42a7ad22-b794-4d7b-8494-ae1c7bfb67ff",
+    "greek": "η γλώσσα",
+    "ukrainian": "мова",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "cbc512a2-259f-4b48-8fb8-c568c7d705d3",
+    "greek": "φιλικός",
+    "ukrainian": "привітний, доброзичливий",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "9408fbc2-cd31-46cd-a621-e46a2709f03a",
+    "greek": "ευτυχισμένος",
+    "ukrainian": "щасливий",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "728e3dd4-acc4-49e3-890c-2e11b3a98114",
+    "greek": "το φαγητό",
+    "ukrainian": "їжа",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "cc4f99db-b977-4159-b118-419983d98b06",
+    "greek": "συναντώ",
+    "ukrainian": "зустрічати",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "ac72866a-f218-4170-8106-89371c88908b",
+    "greek": "μιλάω",
+    "ukrainian": "розмовляти",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "fe5b5edb-e521-413a-b1ff-25fda2df6c87",
+    "greek": "ξεκινάω",
+    "ukrainian": "починати(ся)",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "6cce7141-efd6-4d09-9f39-621c5fd41c69",
+    "greek": "ο άνθρωπος",
+    "ukrainian": "людина",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "4aeb0fd2-3c17-4c55-82e8-265b03798665",
+    "greek": "έξι",
+    "ukrainian": "шість",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "e8866b06-a81a-4c34-9270-354e8cd2326a",
+    "greek": "επτά",
+    "ukrainian": "сім",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "c8cad5a0-fc2e-41d6-b729-9779261956e1",
+    "greek": "Πότε σηκώνεται ο Μιχάλης;",
+    "ukrainian": "О котрій годині встає Міхаліс?",
+    "type": "question",
+    "source": "michalis"
+  },
+  {
+    "id": "69913360-669a-4cca-9169-a4e749b56e56",
+    "greek": "Τι φτιάχνει το πρωί;",
+    "ukrainian": "Що він готує вранці?",
+    "type": "question",
+    "source": "michalis"
+  },
+  {
+    "id": "3980b46a-4c30-4729-af87-7268b024b388",
+    "greek": "Πότε είναι ευτυχισμένος ο Μιχάλης;",
+    "ukrainian": "Коли Міхаліс щасливий?",
+    "type": "question",
+    "source": "michalis"
+  },
+  {
+    "id": "842027b7-327c-4483-8205-30599198067a",
+    "greek": "σηκώνομαι στις έξι κάθε πρωί",
+    "ukrainian": "я встаю о шостій щоранку",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "16989145-bfe9-41d4-a039-9f32fe698bbd",
+    "greek": "φτιάχνω πρωινό",
+    "ukrainian": "я готую сніданок",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "55f8acb8-1dad-4f95-bd45-310e41428072",
+    "greek": "πίνω έναν καφέ",
+    "ukrainian": "я п’ю каву",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "12dd91ac-cd78-4bca-834b-14248a4fef93",
+    "greek": "πηγαίνω στη δουλειά",
+    "ukrainian": "я їду / ходжу на роботу",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "cd59c081-e2f5-4121-b997-c784683fc127",
+    "greek": "με το αυτοκίνητό μου",
+    "ukrainian": "на моїй машині; моїм автомобілем",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "290c78dd-bb73-4bba-b583-e4cb3c8b38db",
+    "greek": "η δουλειά μου",
+    "ukrainian": "моя робота",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "737266e8-d32f-46e4-bc74-8928709da35a",
+    "greek": "ξεκινά στις εφτά και τριάντα",
+    "ukrainian": "починається о сьомій тридцять",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "9e32ca67-f436-42a5-9d93-ab7bf00f683b",
+    "greek": "είμαι μάγειρας",
+    "ukrainian": "я кухар",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "eb6f3dc0-7a81-4cee-ac2b-ffa8acfd581a",
+    "greek": "σε ένα εστιατόριο",
+    "ukrainian": "в одному ресторані; у ресторані",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "140e6b4f-155d-4a7f-8c5f-c4b8e6505b7e",
+    "greek": "φτιάχνω φαγητό",
+    "ukrainian": "я готую їжу",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "6a097c64-9de5-4acb-9adb-a246d3847a30",
+    "greek": "για πεινασμένους πελάτες",
+    "ukrainian": "для голодних клієнтів",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "8d878975-d16c-4a3d-8056-a8d3b558b54f",
+    "greek": "από πολλές διαφορετικές χώρες",
+    "ukrainian": "з багатьох різних країн",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "81f51f5e-f04f-4902-aa30-4683fb88315f",
+    "greek": "μιλούν πολλές διαφορετικές γλώσσες",
+    "ukrainian": "вони розмовляють багатьма різними мовами",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "bd74d4ff-7d90-4a1f-baa3-79c5936742de",
+    "greek": "μπορώ να συναντήσω",
+    "ukrainian": "я можу зустріти",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "6b59cc49-a41f-45f5-8b79-430cd93027ce",
+    "greek": "πολλούς φιλικούς ανθρώπους",
+    "ukrainian": "багатьох привітних людей",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "28b9523e-8aa7-4861-b6ef-ac9aa64e97ae",
+    "greek": "είμαι ευτυχισμένος",
+    "ukrainian": "я щасливий",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "6e332494-0764-45a6-a1e8-ee6cd88bd0c0",
+    "greek": "όταν μιλάω",
+    "ukrainian": "коли я розмовляю",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "01467118-1cdf-43df-b57f-120e640f6c6c",
+    "greek": "μιλάω στους πελάτες",
+    "ukrainian": "я розмовляю з клієнтами",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "c9976583-8202-4d34-85c3-853ab4a64c34",
+    "greek": "σηκώνεσαι στις έξι",
+    "ukrainian": "ти встаєш о шостій",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "b13f7221-cb34-4032-9d8c-45fb281fd644",
+    "greek": "πηγαίνεις στη δουλειά",
+    "ukrainian": "ти їдеш / ходиш на роботу",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "e763d318-94eb-4a28-adcc-6daefebf5c7d",
+    "greek": "πίνεις καφέ",
+    "ukrainian": "ти п’єш каву",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "90090545-7e6e-41cb-be56-8f5079c05738",
+    "greek": "είσαι μάγειρας",
+    "ukrainian": "ти кухар",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "1f024ae6-d479-4caa-8cb0-3b926b7102da",
+    "greek": "φτιάχνεις φαγητό",
+    "ukrainian": "ти готуєш їжу",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "d112297a-773f-4dc8-8bcd-e14345c0e9e3",
+    "greek": "μιλάς στους πελάτες",
+    "ukrainian": "ти розмовляєш з клієнтами",
+    "type": "phrase",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "3536f6b8-a21a-4de2-ba04-26812eff31cb",
+    "greek": "ο καφές",
+    "ukrainian": "кава",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "6683d130-7ab4-433e-b7d7-dae491343bb4",
+    "greek": "φτιάχνω",
+    "ukrainian": "я готую; я роблю",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "f35de79a-64d8-4b21-8a0b-b5d1eef3d783",
+    "greek": "πηγαίνω",
+    "ukrainian": "я йду; я їду",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "49f11215-b923-495f-b776-28fe30f6add4",
+    "greek": "είμαι",
+    "ukrainian": "я є; я перебуваю",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "2e369002-f016-4f36-88a7-2c6a74dd5342",
+    "greek": "μπορώ",
+    "ukrainian": "я можу",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "49c0e388-d3c8-4fc7-8148-0eed1b895491",
+    "greek": "σηκώνεσαι",
+    "ukrainian": "ти встаєш",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "c6a488d6-e870-4106-bf5b-cb3c8c44aba8",
+    "greek": "πηγαίνεις",
+    "ukrainian": "ти йдеш; ти їдеш",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "a4033e1f-ece8-4f68-9256-bb8b3d542cdc",
+    "greek": "είσαι",
+    "ukrainian": "ти є; ти перебуваєш",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "b98fe229-c952-472d-8ce0-2d0e307d7c37",
+    "greek": "μιλάς",
+    "ukrainian": "ти розмовляєш",
+    "type": "word",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "e2cf1e89-8eb9-43c4-9a41-26a0ad164c96",
+    "greek": "Πότε σηκώνεσαι κάθε πρωί;",
+    "ukrainian": "О котрій годині ти встаєш щоранку?",
+    "type": "question",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "8cb4ce0b-05b1-47e6-91a2-869ae69a20cb",
+    "greek": "Τι φτιάχνεις το πρωί;",
+    "ukrainian": "Що ти готуєш вранці?",
+    "type": "question",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "91289fb3-8fbb-421b-8dc5-4a1903d6488f",
+    "greek": "Με τι πηγαίνεις στη δουλειά;",
+    "ukrainian": "На чому ти їдеш на роботу?",
+    "type": "question",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "373c9d20-728f-47b5-9c9b-bbecefc14775",
+    "greek": "Τι δουλειά κάνεις;",
+    "ukrainian": "Ким ти працюєш?",
+    "type": "question",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "31a6c616-7d18-4409-bcc4-69069a1497de",
+    "greek": "Για ποιους φτιάχνεις φαγητό;",
+    "ukrainian": "Для кого ти готуєш їжу?",
+    "type": "question",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "71c1dec7-41ac-4a18-b5b7-96458222a775",
+    "greek": "Πότε είσαι ευτυχισμένος;",
+    "ukrainian": "Коли ти щасливий?",
+    "type": "question",
+    "source": "michalis-first-person"
+  },
+  {
+    "id": "6f2a0762-c38e-4a9f-8394-ac65c513c65f",
+    "greek": "είναι ενθουσιασμένος",
+    "ukrainian": "він у захваті",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "3367e6f4-7419-4e8a-bec2-60be2d2a444e",
+    "greek": "με τις χειμερινές διακοπές",
+    "ukrainian": "зимовими канікулами",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "d223b38e-6440-4b08-af0a-cd7f629ec177",
+    "greek": "έχει μερικές ημέρες άδεια",
+    "ukrainian": "має кілька днів відпустки",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "c4a64b4a-52e9-4e5a-bc2d-bfe5877a85f8",
+    "greek": "τον χειμώνα",
+    "ukrainian": "взимку",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "9cb57c08-8557-4fa8-ba3c-4c4e7a232925",
+    "greek": "δεν χρειάζεται να δουλέψει",
+    "ukrainian": "йому не потрібно працювати",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "30ae0a7d-7ff8-46b3-a310-27fcdd5f734a",
+    "greek": "δεν πρέπει να δουλέψει",
+    "ukrainian": "йому не можна працювати; він не повинен працювати",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "6d0fc332-4ccf-4052-b9fa-b440efa79345",
+    "greek": "για δύο εβδομάδες",
+    "ukrainian": "протягом двох тижнів",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "01a30ea7-94ee-45ac-998f-c95d1c77266c",
+    "greek": "θέλει να πάει διακοπές",
+    "ukrainian": "він хоче поїхати на канікули",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "3744cf2b-dba2-4028-aee6-4489627a11b8",
+    "greek": "δεν ξέρει πού να πάει",
+    "ukrainian": "він не знає, куди поїхати",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "5456e93d-d1ca-497e-9c21-f21cece9a5d1",
+    "greek": "θέλει να πάει στη Γαλλία",
+    "ukrainian": "він хоче поїхати до Франції",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "d5076d7c-a94e-498b-9683-90ead43eebd8",
+    "greek": "η Γαλλία είναι ακριβή",
+    "ukrainian": "Франція дорога",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "1ba2d878-b2ed-4680-813a-e67241da6f33",
+    "greek": "το αεροπορικό εισιτήριο",
+    "ukrainian": "авіаквиток",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "f8e30992-9fc8-4586-a3f3-1a7db19c2534",
+    "greek": "κοστίζει πολύ",
+    "ukrainian": "коштує дорого",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "0c2b847f-6e17-4183-a697-11d66045eda7",
+    "greek": "δεν μιλάει γαλλικά",
+    "ukrainian": "він не розмовляє французькою",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "8f242f77-49c9-4be5-b4f5-c6755a7f85dc",
+    "greek": "αποφασίζει να μελετήσει γαλλικά",
+    "ukrainian": "він вирішує вивчати французьку",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "f8c90598-e043-47f0-98b4-161465d88d09",
+    "greek": "να εξοικονομήσει χρήματα",
+    "ukrainian": "заощадити гроші",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "814c33df-ae88-4ca4-ab37-296356851253",
+    "greek": "ή να μείνει στο σπίτι",
+    "ukrainian": "або залишитися вдома",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "7fd4ab5b-657a-4fde-b215-7404469563a2",
+    "greek": "για τις διακοπές του",
+    "ukrainian": "на його канікули",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "6946d141-7749-409d-b6e4-55b955fa120f",
+    "greek": "ενθουσιασμένος",
+    "ukrainian": "у захваті; схвильований",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "a56c292e-1bd3-4b50-be82-12e84128b8e8",
+    "greek": "χειμερινός",
+    "ukrainian": "зимовий",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "f21d6842-05d8-4a0d-b7af-d93e35cc3bf4",
+    "greek": "οι διακοπές",
+    "ukrainian": "канікули; відпустка",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "500ad762-0ecd-4556-a12c-7712e216d255",
+    "greek": "μερικές ημέρες",
+    "ukrainian": "кілька днів",
+    "type": "phrase",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "4e721a96-9297-4c24-82da-a914269e8884",
+    "greek": "η άδεια",
+    "ukrainian": "відпустка; дозвіл",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "d6289c0c-d454-47d7-9ab2-a6b2c7f5c960",
+    "greek": "ο χειμώνας",
+    "ukrainian": "зима",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "a3737de0-7c98-4fab-8c4d-261ed6d43c65",
+    "greek": "δουλεύω",
+    "ukrainian": "працювати",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "da201bea-9d93-4b09-919c-5e6bd6f2892d",
+    "greek": "η εβδομάδα",
+    "ukrainian": "тиждень",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "4b66d20e-b389-4a7e-8a23-adb77dfb5d26",
+    "greek": "θέλει",
+    "ukrainian": "він хоче",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "42e914d1-aa68-4b90-8f91-9e51337e8fbe",
+    "greek": "ξέρει",
+    "ukrainian": "він знає",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "c67f29ea-1353-46d4-a58b-18fa15ea913e",
+    "greek": "πηγαίνει",
+    "ukrainian": "він іде; він їде",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "cebde81b-e295-479e-8b0a-cb0149cef263",
+    "greek": "η Γαλλία",
+    "ukrainian": "Франція",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "9d623c39-ef85-4534-9026-2cf0dc811bca",
+    "greek": "ακριβός",
+    "ukrainian": "дорогий",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "467e6e07-af8e-44bc-9122-a71ebb29c43d",
+    "greek": "το εισιτήριο",
+    "ukrainian": "квиток",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "77ca57b6-9dd5-40c8-9dc9-9d718b617c0a",
+    "greek": "αεροπορικός",
+    "ukrainian": "авіаційний",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "ec302e6c-0304-4c0e-be3d-f8c43a5f9664",
+    "greek": "κοστίζω",
+    "ukrainian": "коштувати",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "ef36b822-c0bd-4839-9229-a2d470179470",
+    "greek": "μιλάει",
+    "ukrainian": "він розмовляє",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "96769030-3cca-41f1-a6eb-3b6b65c50b60",
+    "greek": "γαλλικά",
+    "ukrainian": "французька мова",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "a29a3335-9bc0-417f-ab25-3735b47e8165",
+    "greek": "μελετάω",
+    "ukrainian": "вивчати; займатися",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "6e2917ac-fc1c-4f4a-b101-c6b90cfd8964",
+    "greek": "εξοικονομώ",
+    "ukrainian": "заощаджувати",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "fe828337-3599-4987-8956-8d9794ab8b26",
+    "greek": "τα χρήματα",
+    "ukrainian": "гроші",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "ac360cde-19f5-4e04-8981-34ce841c5401",
+    "greek": "μένει",
+    "ukrainian": "він залишається; він живе",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "7afbabff-3625-429f-b81b-093e568936d6",
+    "greek": "το σπίτι",
+    "ukrainian": "дім; оселя",
+    "type": "word",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "8a24de50-1951-43e2-b0e8-8532a33fb499",
+    "greek": "Είναι ο Δημήτρης ενθουσιασμένος με τις χειμερινές διακοπές;",
+    "ukrainian": "Чи в захваті Дмитріс від зимових канікул?",
+    "type": "question",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "1d65a57f-f732-4d86-96c3-e23ba2d0a24e",
+    "greek": "Έχει ο Δημήτρης ελεύθερο χρόνο τον χειμώνα;",
+    "ukrainian": "Чи має Дмитріс вільний час узимку?",
+    "type": "question",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "d5fb3d79-2d33-4a4b-9049-b0b4884cfb13",
+    "greek": "Θέλει ο Δημήτρης να μείνει στο σπίτι;",
+    "ukrainian": "Чи хоче Дмитріс залишитися вдома?",
+    "type": "question",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "587e2f4b-9246-4d6f-a549-722bdb602a04",
+    "greek": "Ξέρει ο Δημήτρης πού να πάει;",
+    "ukrainian": "Чи знає Дмитріс, куди поїхати?",
+    "type": "question",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "ab3af7a5-9cad-4f1e-b4e0-938a5c52d3d5",
+    "greek": "Θέλει ο Δημήτρης να πάει στη Γαλλία για τις διακοπές του;",
+    "ukrainian": "Чи хоче Дмитріс поїхати до Франції на канікули?",
+    "type": "question",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "4bd7e005-497a-4828-ad8b-1461620425f5",
+    "greek": "Είναι η Γαλλία φθηνή;",
+    "ukrainian": "Франція дешева?",
+    "type": "question",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "083a61cb-dbc7-4296-b4f4-321aa6265ad5",
+    "greek": "Μιλάει ο Δημήτρης γαλλικά;",
+    "ukrainian": "Дмитріс розмовляє французькою?",
+    "type": "question",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "b1844acb-81a8-4e19-a818-3ff01644708a",
+    "greek": "Τι αποφασίζει να κάνει ο Δημήτρης για τις διακοπές;",
+    "ukrainian": "Що Дмитріс вирішує робити на канікулах?",
+    "type": "question",
+    "source": "dimitris-third-person"
+  },
+  {
+    "id": "e287fcdf-312b-44df-a4dc-078760088883",
+    "greek": "είμαι ενθουσιασμένος",
+    "ukrainian": "я в захваті",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "c12a22db-9076-4d9d-85c0-af6144cc6a6e",
+    "greek": "με τις χειμερινές διακοπές",
+    "ukrainian": "зимовими канікулами",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "fbdd46fb-35bc-4bd7-9734-c4448538a8f2",
+    "greek": "έχω μερικές ημέρες άδεια",
+    "ukrainian": "я маю кілька днів відпустки",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "948ccde4-8b74-445b-b003-0c14f52c7b14",
+    "greek": "τον χειμώνα",
+    "ukrainian": "взимку",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "d78c710f-fc4e-48a7-856b-38dfd1ade205",
+    "greek": "δεν χρειάζεται να δουλέψω",
+    "ukrainian": "мені не потрібно працювати",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "1d3e7af8-e240-4645-b59a-60689d79b53b",
+    "greek": "δεν πρέπει να δουλέψω",
+    "ukrainian": "мені не можна працювати; я не повинен працювати",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "f944928b-07a3-446b-8afa-439482916c4f",
+    "greek": "για δύο εβδομάδες",
+    "ukrainian": "протягом двох тижнів",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "0e854d63-6e4b-494f-b332-6cd8058318ff",
+    "greek": "θέλω να πάω διακοπές",
+    "ukrainian": "я хочу поїхати на канікули",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "544dc238-3bfe-41ae-83c9-08b16811c146",
+    "greek": "δεν ξέρω πού να πάω",
+    "ukrainian": "я не знаю, куди поїхати",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "5dca77b2-7cf1-4ac2-96de-708d41441bf9",
+    "greek": "θέλω να πάω στη Γαλλία",
+    "ukrainian": "я хочу поїхати до Франції",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "70e9a635-74a4-4596-9501-489cd022354d",
+    "greek": "η Γαλλία είναι ακριβή",
+    "ukrainian": "Франція дорога",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "59a70638-8b21-4149-9190-9666703690d1",
+    "greek": "το αεροπορικό εισιτήριο",
+    "ukrainian": "авіаквиток",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "1b2f60cd-5bd8-4ff5-b761-e7969bfa9391",
+    "greek": "κοστίζει πολύ",
+    "ukrainian": "коштує дорого",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "bde0a91c-1e9e-4664-8b11-84ab3ddd7171",
+    "greek": "δεν μιλάω γαλλικά",
+    "ukrainian": "я не розмовляю французькою",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "832d2bd2-7c06-47cb-aa80-09bbf9c50394",
+    "greek": "αποφασίζω να μελετήσω γαλλικά",
+    "ukrainian": "я вирішую вивчати французьку",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "eec03870-7e82-4a62-a887-2c86d9d9789f",
+    "greek": "να εξοικονομήσω χρήματα",
+    "ukrainian": "заощадити гроші",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "74e9cffe-08de-49b3-b3da-3ad6f7d3e170",
+    "greek": "ή να μείνω στο σπίτι",
+    "ukrainian": "або залишитися вдома",
+    "type": "phrase",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "d9a0deb4-3e99-40a9-8c09-e2cf09b6f154",
+    "greek": "είμαι",
+    "ukrainian": "я є; я перебуваю",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "86af6b63-311b-44bb-b5a0-7ead1cc6d19b",
+    "greek": "έχω",
+    "ukrainian": "я маю",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "53bafd9b-5e54-4f9f-9d53-f83259d85c9d",
+    "greek": "δουλεύω",
+    "ukrainian": "я працюю",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "3e69b4e2-18e8-4a6b-accb-43d369cd684b",
+    "greek": "θέλω",
+    "ukrainian": "я хочу",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "398fb878-e642-414d-b2ef-e7f4c4b887cc",
+    "greek": "ξέρω",
+    "ukrainian": "я знаю",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "698ff496-5164-48c7-9752-ca53a3372a5d",
+    "greek": "πηγαίνω",
+    "ukrainian": "я йду; я їду",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "0a679ba2-26e5-4cae-8e2d-e5ea76e4bc91",
+    "greek": "μιλάω",
+    "ukrainian": "я розмовляю",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "22404b2e-a412-4846-9120-51a8ced7b067",
+    "greek": "αποφασίζω",
+    "ukrainian": "я вирішую",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "c1696062-0b97-472d-befd-604f532c1298",
+    "greek": "μελετήσω",
+    "ukrainian": "вивчити; позайматися",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "22e81e2c-1c63-420a-ac48-64589bd2157a",
+    "greek": "εξοικονομήσω",
+    "ukrainian": "заощадити",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "6179e697-d8ee-4a12-9db4-2082d2f95b23",
+    "greek": "μείνω",
+    "ukrainian": "залишитися",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "60fc419c-12b9-49db-91e3-f1a19d5dd2f0",
+    "greek": "θέλεις",
+    "ukrainian": "ти хочеш",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "3d8d238b-ef49-48f9-896a-4e8bb47afcdc",
+    "greek": "ξέρεις",
+    "ukrainian": "ти знаєш",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "08bb1dd3-bb4f-4ab0-a15b-256083124255",
+    "greek": "μιλάς",
+    "ukrainian": "ти розмовляєш",
+    "type": "word",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "e95558ee-164c-4152-a019-a024867adcf0",
+    "greek": "Είσαι ενθουσιασμένος με τις χειμερινές διακοπές;",
+    "ukrainian": "Ти в захваті від зимових канікул?",
+    "type": "question",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "87f7330b-96fe-4c2c-a058-8be2a5f38bdd",
+    "greek": "Έχεις ελεύθερο χρόνο τον χειμώνα;",
+    "ukrainian": "Ти маєш вільний час узимку?",
+    "type": "question",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "733cba9a-539f-4ea2-ab2c-7abab915e181",
+    "greek": "Θέλεις να μείνεις στο σπίτι;",
+    "ukrainian": "Ти хочеш залишитися вдома?",
+    "type": "question",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "c61bff15-aa9b-412d-9d2f-2f4f8c3eab03",
+    "greek": "Ξέρεις πού να πας;",
+    "ukrainian": "Ти знаєш, куди поїхати?",
+    "type": "question",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "05026843-5485-4a6e-ba5f-8627bd239afb",
+    "greek": "Θέλεις να πας στη Γαλλία για τις διακοπές σου;",
+    "ukrainian": "Ти хочеш поїхати до Франції на канікули?",
+    "type": "question",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "199e0993-5e60-4950-975b-2a2c705f707a",
+    "greek": "Είναι η Γαλλία φθηνή;",
+    "ukrainian": "Франція дешева?",
+    "type": "question",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "11b3c654-4d45-40c1-9993-d0589d9d17bd",
+    "greek": "Μιλάς γαλλικά;",
+    "ukrainian": "Ти розмовляєш французькою?",
+    "type": "question",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "a598a306-5adb-48b4-b231-5488a5499bb8",
+    "greek": "Τι αποφασίζεις να κάνεις για τις διακοπές;",
+    "ukrainian": "Що ти вирішуєш робити на канікулах?",
+    "type": "question",
+    "source": "dimitris-first-person"
+  },
+  {
+    "id": "e956f069-591c-43c6-a2eb-ea7562f98a86",
+    "greek": "Καλημέρα σας",
+    "ukrainian": "Доброго ранку",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "6299c05a-feee-44f2-a289-995f52b83c3a",
+    "greek": "Μπορώ να σας βοηθήσω;",
+    "ukrainian": "Чи можу я вам допомогти?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "60ce5505-6f45-48db-aa4a-29314892f1be",
+    "greek": "θα ήθελα",
+    "ukrainian": "я хотів би / я хотіла б",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "ad85fabd-46f1-4723-90c8-44fe21631e5e",
+    "greek": "μερικά φρούτα",
+    "ukrainian": "трохи фруктів",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "5881b97b-a81a-487f-9507-7365f544c293",
+    "greek": "Έχετε πορτοκάλια;",
+    "ukrainian": "У вас є апельсини?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "1b2e83ed-9081-4cc5-99ff-aa4ac287ec98",
+    "greek": "Φυσικά",
+    "ukrainian": "Звичайно",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "bce24ba5-3ae2-4d8e-8a61-b1c01ddf9f0f",
+    "greek": "εκεί δίπλα στα μήλα",
+    "ukrainian": "там, поруч із яблуками",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "fdf5ef3e-a979-41b7-be5a-abd367e80b3d",
+    "greek": "Πόσο έχουν;",
+    "ukrainian": "Скільки вони коштують?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "c65dd231-5714-415e-b14c-0e54f99ac3be",
+    "greek": "τρία ευρώ το κιλό",
+    "ukrainian": "три євро за кілограм",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "454abb42-e98f-4531-99e2-1e41b207193e",
+    "greek": "Είναι ακριβά",
+    "ukrainian": "Вони дорогі",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "3d727dbe-1b81-47c6-9157-b7ba0dd52cb0",
+    "greek": "γιατί είναι φρέσκα",
+    "ukrainian": "тому що вони свіжі",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "a3cb29ee-a3ef-4570-86d0-ed57bebd950e",
+    "greek": "Μάλιστα",
+    "ukrainian": "Так; зрозуміло",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "582ae12c-46cc-4cfc-8d39-dee7284ec852",
+    "greek": "Κατάλαβα",
+    "ukrainian": "Я зрозумів / зрозуміла",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "99b59c91-211f-4d3a-83f8-fe1720141b52",
+    "greek": "Θα πάρω",
+    "ukrainian": "Я візьму",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "58a42583-43ef-4440-bc04-79b0e9d31c88",
+    "greek": "μισό κιλό",
+    "ukrainian": "пів кілограма",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "49694252-5612-4f42-8b81-3cd26d4be014",
+    "greek": "Τίποτα άλλο;",
+    "ukrainian": "Щось іще?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "cefc3aaf-d52c-49af-8747-92227598419e",
+    "greek": "μερικές πατάτες",
+    "ukrainian": "кілька картоплин",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "1aa4d986-bf3f-431b-ba6c-e7621fc1d456",
+    "greek": "Ορίστε, εδώ είναι",
+    "ukrainian": "Ось, тут є",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "998a345e-3168-4a66-b636-b1824b7b9814",
+    "greek": "οι πατάτες",
+    "ukrainian": "картопля",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "80e8a1d8-a7e9-40b2-8df8-725544331c40",
+    "greek": "Πόσο κάνουν;",
+    "ukrainian": "Скільки це коштує?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "d6f0c670-cfe9-45d1-89d7-4c998d30a2ab",
+    "greek": "ένα ευρώ το κιλό",
+    "ukrainian": "одне євро за кілограм",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "46aeaac2-bd75-43e6-aefd-d87f4b8fa3af",
+    "greek": "ένα κιλό πατάτες",
+    "ukrainian": "кілограм картоплі",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "9d6602f4-d6a3-41ed-8610-8d1255d19e55",
+    "greek": "Αυτά;",
+    "ukrainian": "Це все?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "83eabbec-8892-4bbd-8fe4-463f33701078",
+    "greek": "Όλα μαζί",
+    "ukrainian": "Усе разом",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "06118299-ef7a-4867-8a93-764faa48f272",
+    "greek": "δυόμισι ευρώ",
+    "ukrainian": "два євро п’ятдесят центів",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "43434ec8-1250-408f-b56d-22b253fcd2d8",
+    "greek": "Ορίστε, δέκα ευρώ",
+    "ukrainian": "Ось десять євро",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "bc881358-4bdb-4985-8a3b-5ef3917d7223",
+    "greek": "Τα ρέστα σας",
+    "ukrainian": "Ваша решта",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "b1c35b6f-3801-4e7d-bba9-9e5817bfc7b2",
+    "greek": "Επτάμισι ευρώ",
+    "ukrainian": "сім євро п’ятдесят центів",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "742d7cef-f5ff-4e62-86e0-a99166a5c3f8",
+    "greek": "Ποιος έχει σειρά;",
+    "ukrainian": "Хто наступний?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "7193c44a-1be6-4c14-9f52-431cf7de7f2f",
+    "greek": "Θα ήθελα φέτα",
+    "ukrainian": "Я хотів би / хотіла б фету",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "e0685c4c-8e2e-4c86-a3f6-d025eaf42054",
+    "greek": "Πόση φέτα θα θέλατε;",
+    "ukrainian": "Скільки фети ви хотіли б?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "a96d9e7c-ac49-40cf-94fb-50bc0f37722d",
+    "greek": "Ορίστε η φέτα σας",
+    "ukrainian": "Ось ваша фета",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "e958f359-384c-4b96-9c0b-bed5e832bef6",
+    "greek": "τριακόσια πενήντα γραμμάρια",
+    "ukrainian": "триста п’ятдесят грамів",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "f0420c59-a8be-45ac-91d3-d58025245f26",
+    "greek": "καπνιστή γαλοπούλα",
+    "ukrainian": "копчена індичка",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "979a4799-2d91-4451-8481-84fe06b2cf3f",
+    "greek": "Επίσης θα ήθελα",
+    "ukrainian": "Також я хотів би / хотіла б",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "62264285-3766-4276-bd0b-f2a64a32e530",
+    "greek": "ένα κιλό γραβιέρα",
+    "ukrainian": "кілограм грав’єри",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "73b920c6-9f5f-4080-b351-e0737708de7f",
+    "greek": "Να κι η γραβιέρα σας",
+    "ukrainian": "Ось і ваша грав’єра",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "c02a3816-6789-4aa8-8b3e-9eb414be5652",
+    "greek": "η φέτα έχει πέντε ευρώ",
+    "ukrainian": "фета коштує п’ять євро",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "e3c79f16-10a9-48c7-8248-e190284d5208",
+    "greek": "δέκα ευρώ το κιλό",
+    "ukrainian": "десять євро за кілограм",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "7eba0504-43bf-43de-97e3-702d7216e746",
+    "greek": "Δεν έχω ψιλά",
+    "ukrainian": "У мене немає дрібних грошей",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "154a47f9-00a5-4421-b28f-6e0575c7067a",
+    "greek": "Δεν πειράζει",
+    "ukrainian": "Нічого страшного",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "2bd46e1c-7370-4622-9018-cd0239e68aef",
+    "greek": "Τριάντα δύο ευρώ και πενήντα λεπτά",
+    "ukrainian": "тридцять два євро п’ятдесят центів",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "e1fc645e-7529-46a5-ba96-058390946a4d",
+    "greek": "Στο καλό να πάτε",
+    "ukrainian": "Бувайте; гарного вам дня",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "79116ba5-9fcf-48a3-bbcc-5f118d143263",
+    "greek": "το σουπερμάρκετ",
+    "ukrainian": "супермаркет",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "22a4a838-aff6-44c4-a6f6-8ba622676b2c",
+    "greek": "ο υπάλληλος",
+    "ukrainian": "працівник; продавець",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "2f9a7ad6-c18b-4c41-b864-21544bc9c526",
+    "greek": "ο πελάτης",
+    "ukrainian": "покупець; клієнт",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "7d9bbd45-b11c-4a3d-9ec8-842b9f59a87d",
+    "greek": "το φρούτο",
+    "ukrainian": "фрукт",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "a8f9f501-1604-4242-a313-61fe8c87052d",
+    "greek": "το πορτοκάλι",
+    "ukrainian": "апельсин",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "75dd5f29-a4ce-44fc-8f3f-ecf840086f4b",
+    "greek": "το μήλο",
+    "ukrainian": "яблуко",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "f52474aa-a2a9-47e0-8872-35bb17993130",
+    "greek": "η πατάτα",
+    "ukrainian": "картоплина; картопля",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "80c4484d-1e23-4c40-b9f0-568362e7aed4",
+    "greek": "το κιλό",
+    "ukrainian": "кілограм",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "697d4771-3a84-422e-9260-3f338dacae9d",
+    "greek": "ακριβός",
+    "ukrainian": "дорогий",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "4d7684a0-1886-454f-8479-eb4b444da19c",
+    "greek": "φρέσκος",
+    "ukrainian": "свіжий",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "f570b0e6-5bb6-4af9-b632-8bc1c05f29ee",
+    "greek": "η φέτα",
+    "ukrainian": "фета",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "d75b767f-fa28-45c0-aacd-dc4f3201d39d",
+    "greek": "η γαλοπούλα",
+    "ukrainian": "індичка",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "73de3095-e8d1-42fd-aff4-bbc84a3f3050",
+    "greek": "η γραβιέρα",
+    "ukrainian": "грав’єра; твердий грецький сир",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "b8aee92b-880b-43f7-a965-a89cbb01a03a",
+    "greek": "το ταμείο",
+    "ukrainian": "каса",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "4d0837a6-f2d1-4bd7-a4d7-fc8bae9b556a",
+    "greek": "τα ψιλά",
+    "ukrainian": "дрібні гроші",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "de7f250b-36fe-4487-ba80-766208a04f3d",
+    "greek": "τα ρέστα",
+    "ukrainian": "решта",
+    "type": "word",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "765ac91b-9338-4f73-a624-8648e3e2e2e8",
+    "greek": "Τι θα θέλατε;",
+    "ukrainian": "Що б ви хотіли?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "bb56ff6c-add8-4f00-b4ac-31e0ab899f7f",
+    "greek": "Πόσο κοστίζει το κιλό;",
+    "ukrainian": "Скільки коштує кілограм?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "d06b6a99-3183-439d-bdfd-892d6e72a480",
+    "greek": "Έχετε φρέσκα μήλα;",
+    "ukrainian": "У вас є свіжі яблука?",
+    "type": "question",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "074e9443-a1f5-4ede-a97a-86c87e197da1",
+    "greek": "Θα ήθελα ένα κιλό μήλα",
+    "ukrainian": "Я хотів би / хотіла б кілограм яблук",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "c12f5449-ca6e-4322-81f4-787a0e4ea2a6",
+    "greek": "Θα θέλατε",
+    "ukrainian": "Ви хотіли б",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "bb2a3449-1a03-4ed0-a936-5667a11e1b96",
+    "greek": "θα πάρω",
+    "ukrainian": "я візьму; майбутній час від παίρνω",
+    "type": "phrase",
+    "source": "supermarket-dialog"
+  },
+  {
+    "id": "7962164b-56ae-403d-9c09-7d5193d72bce",
+    "greek": "το νερό",
+    "ukrainian": "вода",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "1f316177-e056-476e-9ee0-2ab1b011e921",
+    "greek": "η πορτοκαλάδα",
+    "ukrainian": "апельсиновий напій; апельсинад",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "2242166f-f4bc-4937-a745-400fa03b756b",
+    "greek": "ο χυμός",
+    "ukrainian": "сік",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "023610f7-08ec-4842-aa11-792e5139cc95",
+    "greek": "το γάλα",
+    "ukrainian": "молоко",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "afa7d761-4444-4a2e-bafd-beed45f26825",
+    "greek": "το παγωτό",
+    "ukrainian": "морозиво",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "d37967aa-26a6-41ee-a5e0-f0294acafb1f",
+    "greek": "η σοκολάτα",
+    "ukrainian": "шоколад",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "34860478-bb69-433d-af04-a6a4ee6856e0",
+    "greek": "το γιαούρτι",
+    "ukrainian": "йогурт",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "e386a53a-5a47-45bd-8f6f-a6c4134801fc",
+    "greek": "η τσίχλα",
+    "ukrainian": "жувальна гумка",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "c7e0829a-fb4a-4179-8566-e5a9525570d2",
+    "greek": "ένα πακέτο μπισκότα",
+    "ukrainian": "пачка печива",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "dbd02f3b-d27e-4b66-834f-0c6183920a38",
+    "greek": "ένα σακουλάκι πατατάκια",
+    "ukrainian": "пакетик чипсів",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "66f04b79-19fd-4202-b9de-371bbce7636a",
+    "greek": "το περίπτερο",
+    "ukrainian": "кіоск",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "02f0b239-6594-4535-8008-1bf598d14522",
+    "greek": "ο περιπτεράς",
+    "ukrainian": "власник кіоску",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "149c6d10-cb54-47dd-9713-e5586893ae93",
+    "greek": "η εφημερίδα",
+    "ukrainian": "газета",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "900499f9-9f13-4e31-94d1-9d1032341361",
+    "greek": "το περιοδικό",
+    "ukrainian": "журнал",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "a18b5a9d-22aa-4d71-8e47-fdad4d95c8a5",
+    "greek": "ο αναπτήρας",
+    "ukrainian": "запальничка",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "4dd07cfb-f237-4b0f-9a37-4094a2bad720",
+    "greek": "το λαχείο",
+    "ukrainian": "лотерейний квиток",
+    "type": "word",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "19ea378f-682a-47a5-9f12-220337305e38",
+    "greek": "ένα πακέτο χαρτομάντιλα",
+    "ukrainian": "пачка паперових хустинок",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "6b35678d-40a4-40b4-ab35-e97131bd0fd5",
+    "greek": "ένα μπουκάλι νερό",
+    "ukrainian": "пляшка води",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "787520d3-e92e-4d66-b118-a78d3b591603",
+    "greek": "φοιτητικό εισιτήριο",
+    "ukrainian": "студентський квиток",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "6175a5ff-ea9a-4d84-ae8f-99e85cffc23e",
+    "greek": "Θα ήθελα... παρακαλώ.",
+    "ukrainian": "Я хотів би / хотіла б..., будь ласка.",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "66c2dc93-0869-435f-b31a-720a73edefe7",
+    "greek": "Μου δίνετε...;",
+    "ukrainian": "Дайте мені..., будь ласка.",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "4922b7c9-128b-4a25-97ea-b93126f9ba2e",
+    "greek": "Κάτι άλλο;",
+    "ukrainian": "Щось іще?",
+    "type": "question",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "54017cc3-d298-4537-ae4f-2cde93214cb6",
+    "greek": "Ορίστε.",
+    "ukrainian": "Ось, будь ласка.",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "cd661e34-ee37-4e46-a11d-5aa811b95929",
+    "greek": "Πόσο κάνει;",
+    "ukrainian": "Скільки це коштує?",
+    "type": "question",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "82b63675-18aa-4155-a899-9e877b870a88",
+    "greek": "Πόσο κάνουν όλα μαζί;",
+    "ukrainian": "Скільки все разом?",
+    "type": "question",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "a27efd31-b930-4f86-9abe-2206d1e9e2f3",
+    "greek": "Τα ρέστα σας.",
+    "ukrainian": "Ваша решта.",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "4a3bef05-9eb2-4e99-a020-14351dceae75",
+    "greek": "Δεν έχετε καθόλου ψιλά;",
+    "ukrainian": "У вас зовсім немає дрібних грошей?",
+    "type": "question",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "8ef9a622-3d18-473d-9d14-9f1e87c309eb",
+    "greek": "Καλή συνέχεια!",
+    "ukrainian": "Гарного дня!",
+    "type": "phrase",
+    "source": "kiosk-vocabulary"
+  },
+  {
+    "id": "2656acc0-7a15-45cd-8a40-ea5e6d6b41d6",
+    "greek": "Δευτέρα πρωί",
+    "ukrainian": "у понеділок уранці",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "3087c48e-21ae-465e-87a8-4cd649ed2e90",
+    "greek": "της γειτονιάς",
+    "ukrainian": "району; сусідства",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "5b93f17a-4f5b-4ba1-b242-03693ab9b120",
+    "greek": "ο κύριος Νίκος",
+    "ukrainian": "пан Нікос",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "2f8f66fc-1876-4a33-8eae-baaf3c3e6fc4",
+    "greek": "λέει",
+    "ukrainian": "каже",
+    "type": "word",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "1ea86267-c3d4-4072-beef-2488961cc896",
+    "greek": "Θα ήθελα ένα μπουκάλι νερό",
+    "ukrainian": "Я хотів би / хотіла б пляшку води",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "274d7fb2-0e5e-4b7e-b4f3-ef3e798f82da",
+    "greek": "έναν χυμό, παρακαλώ",
+    "ukrainian": "сік, будь ласка",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "6cb34f79-b893-4ae5-8fd6-df9497dce326",
+    "greek": "Μετά κοιτάζει",
+    "ukrainian": "потім дивиться",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "9d6d96b8-d5ee-4591-b682-7cce048c5297",
+    "greek": "οι εφημερίδες",
+    "ukrainian": "газети",
+    "type": "word",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "a553bd38-d146-45d6-a1a1-422038d513e8",
+    "greek": "τα περιοδικά",
+    "ukrainian": "журнали",
+    "type": "word",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "eab2522e-a1d2-4d80-92c2-dc7848c77507",
+    "greek": "Παίρνει μια εφημερίδα",
+    "ukrainian": "Вона бере газету",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "2a48afde-07d4-482d-a0d8-dba69029bbf8",
+    "greek": "για τον μπαμπά της",
+    "ukrainian": "для її тата",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "2fa8581b-5fe3-45ae-b172-53c4fcd8b9ea",
+    "greek": "για την ίδια",
+    "ukrainian": "для себе",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "c8842605-ba9f-42bd-ab9f-dde7f432f5aa",
+    "greek": "ρωτάει",
+    "ukrainian": "запитує",
+    "type": "word",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "a18e13fd-6251-4e7e-97f2-8ef7cfaa7625",
+    "greek": "ένα εισιτήριο για το λεωφορείο",
+    "ukrainian": "квиток на автобус",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "ad120688-ad5c-4be3-8ca2-ff30c1732798",
+    "greek": "αγαπάει",
+    "ukrainian": "любить",
+    "type": "word",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "6c54f443-b456-4e09-8951-6eceff657245",
+    "greek": "σήμερα",
+    "ukrainian": "сьогодні",
+    "type": "word",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "7c8a1973-89a1-4b72-aa09-85cf04e4d543",
+    "greek": "Για τη γιαγιά της",
+    "ukrainian": "Для її бабусі",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "751f90aa-0644-4c88-96d5-5add80e8d407",
+    "greek": "Δεκαπέντε ευρώ",
+    "ukrainian": "п’ятнадцять євро",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "29109dab-755b-4684-a235-60fee79ef763",
+    "greek": "δίνει είκοσι ευρώ",
+    "ukrainian": "дає двадцять євро",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "039d754e-2903-4536-95b7-bdff43df3b24",
+    "greek": "Συγγνώμη",
+    "ukrainian": "вибачте; перепрошую",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "90f9491b-9105-4f6c-9199-588e159e4743",
+    "greek": "πέντε ευρώ",
+    "ukrainian": "п’ять євро",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "073ccdd2-5c08-4d48-98ae-d571831105db",
+    "greek": "Ευχαριστώ πολύ",
+    "ukrainian": "дуже дякую",
+    "type": "phrase",
+    "source": "kiosk-morning"
+  },
+  {
+    "id": "945371d1-7cdf-45e3-bd6d-59700324d0ca",
+    "greek": "βαριέται",
+    "ukrainian": "їй нудно",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "faa1194a-9035-4144-819d-dab04206f9fc",
+    "greek": "στη δουλειά",
+    "ukrainian": "на роботі",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "9dd09101-a440-4c66-85ea-381e1533d1ba",
+    "greek": "στο σπίτι",
+    "ukrainian": "удома",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "348d07b8-3e68-4fdf-b6c1-a08f58bbdbcb",
+    "greek": "το ίδιο πράγμα",
+    "ukrainian": "те саме",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "a84de1e8-c2f9-4298-b3d2-a39b652585a9",
+    "greek": "κάθε μέρα",
+    "ukrainian": "щодня",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "de80ac5c-a49d-4ac2-907a-27e21f371af5",
+    "greek": "μια νέα ασχολία",
+    "ukrainian": "нове заняття",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "8e3fd893-1fc2-4936-bf88-5d74f9ec7249",
+    "greek": "δοκιμάζει να μαγειρέψει",
+    "ukrainian": "пробує готувати",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "d551ae34-f5fa-420e-abec-c12e0605184c",
+    "greek": "καλή γεύση",
+    "ukrainian": "гарний смак",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "69364c03-44b1-46d7-8533-04bc9da97434",
+    "greek": "δοκιμάζω να κολυμπήσω",
+    "ukrainian": "пробую поплавати",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "17a07b6b-c104-488a-ae5e-36cb4e058d0e",
+    "greek": "φοβάμαι το νερό",
+    "ukrainian": "я боюся води",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "8188c8c8-cb30-4df3-8910-065e98f93f89",
+    "greek": "περπατά προς το σπίτι",
+    "ukrainian": "йде додому",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "bf1cf789-d48b-44f1-8d12-7f33628a9876",
+    "greek": "βλέπει ένα κατάστημα",
+    "ukrainian": "бачить магазин",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "0b11eee4-1c7d-42e3-9957-a2629e18cbb6",
+    "greek": "κατάστημα κατοικίδιων ζώων",
+    "ukrainian": "зоомагазин",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "d02dba57-d220-46c6-aad7-b1551d3f6d53",
+    "greek": "μια γάτα",
+    "ukrainian": "кішка",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "d477b638-bb39-4dcf-a976-0c83ea9ade08",
+    "greek": "αγοράζει τη γάτα",
+    "ukrainian": "купує кішку",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "41e0ed73-1be2-43a3-9569-23f7484368cd",
+    "greek": "πολύ ευτυχισμένη",
+    "ukrainian": "дуже щаслива",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "d1576bbe-58e9-4067-9503-d63b81fa7045",
+    "greek": "η ιστορία της",
+    "ukrainian": "її історія",
+    "type": "phrase",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "e6f9d561-7c0f-440f-a6f5-2ed444990a45",
+    "greek": "Είναι η Κατερίνα ευτυχισμένη στη δουλειά;",
+    "ukrainian": "Катеріні добре на роботі?",
+    "type": "question",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "443c1734-56d7-4a5e-bbc1-a582289ab363",
+    "greek": "Κάνει η Κατερίνα πολλά νέα πράγματα;",
+    "ukrainian": "Катеріна робить багато нового?",
+    "type": "question",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "f138f69c-c541-481f-b401-17203a45401b",
+    "greek": "Θέλει η Κατερίνα μια νέα ασχολία;",
+    "ukrainian": "Катеріна хоче нове заняття?",
+    "type": "question",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "1385300c-29fd-48f7-a156-67b70394830f",
+    "greek": "Είναι η Κατερίνα μια καλή μαγείρισσα;",
+    "ukrainian": "Катеріна — добра кухарка?",
+    "type": "question",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "ec1cd62f-94e4-4020-96f9-8fdf97e1c41e",
+    "greek": "Αρέσει στην Κατερίνα η κολύμβηση;",
+    "ukrainian": "Катеріні подобається плавання?",
+    "type": "question",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "016cf601-d627-4853-aa30-d8280fb70ee5",
+    "greek": "Βλέπει η Κατερίνα μια γάτα;",
+    "ukrainian": "Катеріна бачить кішку?",
+    "type": "question",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "5d97514e-be71-4372-b50c-cfe897887ffb",
+    "greek": "Αγοράζει η Κατερίνα τη γάτα;",
+    "ukrainian": "Катеріна купує кішку?",
+    "type": "question",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "627c2f30-1eaf-4607-8e1d-09e23cf9dfa4",
+    "greek": "Βαριέται η Κατερίνα τώρα;",
+    "ukrainian": "Катеріні зараз нудно?",
+    "type": "question",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "76028659-c4a2-4682-af2e-b44c329dd157",
+    "greek": "η κόρη μου",
+    "ukrainian": "моя донька",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "e02a3a90-3205-4580-84a5-6599a56930b2",
+    "greek": "πηγαίνει στο σχολείο",
+    "ukrainian": "ходить до школи",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "d11cad66-62c3-4b65-bc41-89d4fd5cfa85",
+    "greek": "πάρα πολύ",
+    "ukrainian": "дуже; надзвичайно",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "b96de8c9-0f5f-4b5f-8d2c-3ad02140bbad",
+    "greek": "καλή μαθήτρια",
+    "ukrainian": "хороша учениця",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "0e35b580-e2ff-4302-9146-7695ba798e35",
+    "greek": "οι δάσκαλοι",
+    "ukrainian": "учителі",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "fea912dd-3a1d-4da3-a3da-7a3f2de536cc",
+    "greek": "συμπαθούν",
+    "ukrainian": "люблять; прихильно ставляться",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "c5a5d54d-e706-481f-a8e1-213c256f7745",
+    "greek": "πολλούς φίλους",
+    "ukrainian": "багато друзів",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "bce30367-3b81-417b-8da7-6bc2a3caddd9",
+    "greek": "η καλύτερή της φίλη",
+    "ukrainian": "її найкраща подруга",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "f900b00b-dd74-4ffc-8d14-364e1e82dd63",
+    "greek": "τα μαθηματικά",
+    "ukrainian": "математика",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "d6beb552-8532-44c7-b38b-b3ad14a0d678",
+    "greek": "οι επιστήμες",
+    "ukrainian": "природничі науки",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "974c804d-5406-4a44-a4aa-c87128093498",
+    "greek": "τα αγγλικά",
+    "ukrainian": "англійська мова",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "472741b9-2a03-4498-b1e6-043738fd3840",
+    "greek": "η ιστορία",
+    "ukrainian": "історія",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "312a3f24-d897-47cd-b037-66edea3bb7bf",
+    "greek": "η μία την άλλη",
+    "ukrainian": "одна одну",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "c0331b82-6a0e-45a2-893c-c41d1f0a9cbe",
+    "greek": "οι εργασίες",
+    "ukrainian": "завдання; домашні роботи",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "e967c536-e6fa-4a8b-971e-2acb0fb2c460",
+    "greek": "μελετούν σκληρά",
+    "ukrainian": "старанно навчаються",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "1d6df824-b841-48b1-907f-85b51c90ee85",
+    "greek": "τα καταφέρνουν καλά",
+    "ukrainian": "добре справляються",
+    "type": "phrase",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "3276580c-ad86-4756-add1-7ce5ac7840ca",
+    "greek": "Πηγαίνει η κόρη στο σχολείο κάθε μέρα;",
+    "ukrainian": "Донька ходить до школи щодня?",
+    "type": "question",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "7ca03c34-fa37-4dba-b1df-2a6f1697f7d3",
+    "greek": "Συμπαθεί η κόρη το σχολείο;",
+    "ukrainian": "Доньці подобається школа?",
+    "type": "question",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "ad1b444b-1873-48e8-928f-daa295bf42b8",
+    "greek": "Είναι η κόρη κακή μαθήτρια;",
+    "ukrainian": "Донька погана учениця?",
+    "type": "question",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "a9ca7a06-4fb6-4f1d-b062-2f2334421290",
+    "greek": "Συμπαθούν οι δάσκαλοι την κόρη;",
+    "ukrainian": "Учителі прихильно ставляться до доньки?",
+    "type": "question",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "c88f9dcc-c533-40f1-9422-055ad0487679",
+    "greek": "Η καλύτερή της φίλη ονομάζεται Ιουλία;",
+    "ukrainian": "Її найкращу подругу звати Юлія?",
+    "type": "question",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "16de444d-ef84-4569-8d08-701c0971a3e8",
+    "greek": "Αρέσουν στην Αμαλία τα αγγλικά και η ιστορία;",
+    "ukrainian": "Амалї подобаються англійська та історія?",
+    "type": "question",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "aabe6b62-c299-43d7-b1bf-df59c50ce844",
+    "greek": "Η κόρη και η Αμαλία τα καταφέρνουν καλά στο σχολείο;",
+    "ukrainian": "Донька й Амалія добре навчаються?",
+    "type": "question",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "ded72024-9995-41c2-8671-07ad893dacd0",
+    "greek": "δουλειά",
+    "ukrainian": "робота",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "8d358953-3322-446f-8258-4cf161b0d22d",
+    "greek": "βαριέμαι",
+    "ukrainian": "нудьгувати",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "543c044c-6968-4a5c-8536-30b6e42f0e68",
+    "greek": "κάνω",
+    "ukrainian": "робити",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "e0da78f9-e688-404b-9711-7265bc9bd6d6",
+    "greek": "κάνει",
+    "ukrainian": "робить",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "8b54d345-eecf-43e4-81c6-4b6b70a3d657",
+    "greek": "ίδιος",
+    "ukrainian": "той самий",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "eef69578-cbaf-4e27-b23f-bd0e3e0aa0ba",
+    "greek": "το πράγμα",
+    "ukrainian": "річ",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "749874ec-921c-41af-b890-8538aa10540e",
+    "greek": "η μέρα",
+    "ukrainian": "день",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "85687f20-4c3f-41e8-8514-df9769105835",
+    "greek": "νέος",
+    "ukrainian": "новий",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "80eeb76e-727e-415a-ad30-6ba4ca6b7bf3",
+    "greek": "η ασχολία",
+    "ukrainian": "заняття; захоплення",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "4ad86e06-eec5-4295-a804-573bc5d4ad26",
+    "greek": "πρώτα",
+    "ukrainian": "спочатку",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "fb24c18b-2262-4083-8669-a844c591c85a",
+    "greek": "δοκιμάζω",
+    "ukrainian": "пробувати",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "e422a545-106d-41a1-b6e3-104928972c35",
+    "greek": "δοκιμάζει",
+    "ukrainian": "вона пробує",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "5fc7b75d-b7e4-468e-bc8a-7534b264b42c",
+    "greek": "μαγειρεύω",
+    "ukrainian": "готувати їжу",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "f3854c66-48d0-46c1-a0e7-877144f4b896",
+    "greek": "μαγειρέψω",
+    "ukrainian": "приготувати їжу",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "ed88daa9-1534-4444-bdbc-555247b99873",
+    "greek": "η γεύση",
+    "ukrainian": "смак",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "afa77b45-7431-470b-8184-3f8e04e7a163",
+    "greek": "μετά",
+    "ukrainian": "потім",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "ca195b5d-10ff-48e0-900c-be4cb472f704",
+    "greek": "κολυμπάω",
+    "ukrainian": "плавати",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "66395c18-905c-4a85-8d60-96a614b75243",
+    "greek": "κολυμπήσω",
+    "ukrainian": "поплавати",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "f9aa5799-01c3-4b88-9f58-da710b07c495",
+    "greek": "φοβάμαι",
+    "ukrainian": "боятися",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "4fc883c2-d5d2-4d4f-b312-726574e3f4d4",
+    "greek": "περπατάω",
+    "ukrainian": "ходити пішки",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "69a409cc-4b44-4a68-98b4-01c999bacf3e",
+    "greek": "προς",
+    "ukrainian": "у напрямку до",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "be23d4e1-ddec-40ed-975c-9762d6460675",
+    "greek": "βλέπω",
+    "ukrainian": "бачити",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "33ba9ffb-8c32-4b24-9c6a-749fb9584af1",
+    "greek": "το κατάστημα",
+    "ukrainian": "магазин",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "fa93d925-46ed-4a78-a763-49324fe853d8",
+    "greek": "το κατοικίδιο",
+    "ukrainian": "домашній улюбленець",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "51a67dcc-62eb-4e3a-a056-9c2842c888fe",
+    "greek": "το ζώο",
+    "ukrainian": "тварина",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "f4881444-c984-4f22-87c6-52e6ade2b01d",
+    "greek": "η γάτα",
+    "ukrainian": "кішка",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "03c0e3d3-d857-4612-aa03-c2c8e30f070a",
+    "greek": "αγοράζω",
+    "ukrainian": "купувати",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "cd70c6a7-c33d-48b0-81b7-6640d0302b21",
+    "greek": "τώρα",
+    "ukrainian": "зараз",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "dfbfc712-0347-4d89-a032-e618bdab0965",
+    "greek": "πολύ",
+    "ukrainian": "дуже",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "490c361d-ee04-4adb-a0d7-b0df7f297cf9",
+    "greek": "η ερώτηση",
+    "ukrainian": "запитання",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "18c08b36-3ea6-4f19-ad48-6aa7740c2750",
+    "greek": "απαντώ",
+    "ukrainian": "відповідати",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "af73fa11-5a48-4dde-8516-c7839478b611",
+    "greek": "ακούω",
+    "ukrainian": "слухати",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "901c2b49-2fb7-4000-8ca6-ebb6703ced4b",
+    "greek": "απλά",
+    "ukrainian": "просто",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "b2b2f349-3731-4dbe-9e3b-aa234ae44884",
+    "greek": "η μαγείρισσα",
+    "ukrainian": "кухарка",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "c8afdb55-9521-4f95-90e9-a122f64828c0",
+    "greek": "η κολύμβηση",
+    "ukrainian": "плавання",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "c421bb6b-6b69-46ff-bdbb-2676f404a602",
+    "greek": "αρέσω",
+    "ukrainian": "подобатися",
+    "type": "word",
+    "source": "katerina-cat"
+  },
+  {
+    "id": "d8f5794c-64ee-4aca-b5fb-7fa89291108c",
+    "greek": "η κόρη",
+    "ukrainian": "донька",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "99415cf5-835d-4f99-8967-ca4bb0868003",
+    "greek": "το σχολείο",
+    "ukrainian": "школа",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "e9419f14-1c0d-427c-b0e2-f8f57cbb53c2",
+    "greek": "καλός",
+    "ukrainian": "хороший",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "37c11a6a-a616-46fc-8a31-e690bf794de9",
+    "greek": "καλή",
+    "ukrainian": "хороша",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "f7cead02-1740-46a3-9df8-ac8217bde101",
+    "greek": "η μαθήτρια",
+    "ukrainian": "учениця",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "9b24a17c-8976-4c0d-bd75-7442843b5c65",
+    "greek": "ο δάσκαλος",
+    "ukrainian": "учитель",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "646d538f-2bde-482e-a735-96ef4720ef44",
+    "greek": "συμπαθώ",
+    "ukrainian": "любити; прихильно ставитися",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "2db191a5-6182-402c-b2ae-e1af333e575b",
+    "greek": "ο φίλος",
+    "ukrainian": "друг",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "3a990b04-c703-4430-ae1c-d8c7512f9f5a",
+    "greek": "πολλοί",
+    "ukrainian": "багато; численні",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "494d384a-93ba-4dec-b2c2-9d749f6f5283",
+    "greek": "καλύτερος",
+    "ukrainian": "найкращий",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "51ba30f3-dd12-40ce-9adf-359d60524116",
+    "greek": "η φίλη",
+    "ukrainian": "подруга",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "5b314c94-a141-4946-891a-a9821237caa9",
+    "greek": "ονομάζομαι",
+    "ukrainian": "називатися",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "5d8e3b89-29af-4328-bf40-f9c9653961bf",
+    "greek": "η επιστήμη",
+    "ukrainian": "наука",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "14facd3d-2496-45f6-90a1-028db17c14e1",
+    "greek": "βοηθώ",
+    "ukrainian": "допомагати",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "34a5e3bf-2e38-4ecb-a57f-b603321479b9",
+    "greek": "η εργασία",
+    "ukrainian": "завдання; робота",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "90eee75b-baa2-4a33-a939-4f674914c4e5",
+    "greek": "μελετώ",
+    "ukrainian": "навчатися; вивчати",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "ebbfd847-1d79-4aeb-8678-1ae70f734424",
+    "greek": "σκληρά",
+    "ukrainian": "наполегливо",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "01f52eb0-c3fd-4535-92d8-f152308ce5ed",
+    "greek": "τα καταφέρνω",
+    "ukrainian": "справлятися; давати собі раду",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "90122ab1-8347-4c41-8a43-356a34457b7a",
+    "greek": "καλά",
+    "ukrainian": "добре",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "ec0148a9-04cd-4dd9-bd07-0cbfca0bd1c1",
+    "greek": "προσπαθώ",
+    "ukrainian": "намагатися",
+    "type": "word",
+    "source": "daughter-at-school"
+  },
+  {
+    "id": "af1bfea8-513a-436c-bbce-acb30ea19c25",
+    "greek": "το Λύκειο",
+    "ukrainian": "ліцей; старша середня школа",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "3d5614f3-b8e9-4744-bebd-a2ff3f3f0cec",
+    "greek": "η φοιτήτρια",
+    "ukrainian": "студентка університету",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "bb8aaf77-b8f1-480b-a751-c0cc16b30324",
+    "greek": "το πανεπιστήμιο",
+    "ukrainian": "університет",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "31842e9c-efe3-4db6-b1a9-f73097736568",
+    "greek": "ο υπολογιστής",
+    "ukrainian": "комп’ютер",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "44efdcbd-88a6-4915-9f01-653dcfd1bd39",
+    "greek": "το διάβασμα",
+    "ukrainian": "читання; навчання",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "be7bee34-dcb6-461c-8d50-0fb44c04afb4",
+    "greek": "το γράψιμο",
+    "ukrainian": "письмо",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "fac97529-d4d7-449b-81da-131991d253bf",
+    "greek": "η αδερφή",
+    "ukrainian": "сестра",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "0a9c948a-4684-4fcd-8745-4f455c0fb5f9",
+    "greek": "ο αδερφός",
+    "ukrainian": "брат",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "525353cc-04a5-4b36-bff4-a8b54a7459bf",
+    "greek": "μεγάλος",
+    "ukrainian": "старший; великий",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "7664f834-4e05-44c9-bcd2-f0e4fa0d4700",
+    "greek": "παίζω",
+    "ukrainian": "грати",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "1189fdd2-0b3b-4a3a-a00d-83677df1dd34",
+    "greek": "παίζει",
+    "ukrainian": "він грає",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "39a57bc8-dbe9-4755-9e4c-3e4d0c4689d3",
+    "greek": "παίζω στον υπολογιστή",
+    "ukrainian": "грати на комп’ютері",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "4cb63e7d-d2cf-4e70-81f2-853c495d376a",
+    "greek": "βάζω κάποιον να κάνει κάτι",
+    "ukrainian": "змушувати когось щось робити",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "1aae6e42-9972-4176-afb0-dc2a7ab5290c",
+    "greek": "βάζει",
+    "ukrainian": "він/вона змушує; ставить",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "17dad4e9-2153-49c7-bc39-e902930d09c9",
+    "greek": "πάντα",
+    "ukrainian": "завжди",
+    "type": "word",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "da8ef0ab-a737-40fe-bb7f-d1d7704340f1",
+    "greek": "πολλές εργασίες",
+    "ukrainian": "багато завдань",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "15281bbe-129e-4284-9a54-dabc4302127f",
+    "greek": "μαθητής Λυκείου",
+    "ukrainian": "учень ліцею",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "02150cdc-6431-45e6-8674-b3c9ea7425c2",
+    "greek": "φοιτήτρια πανεπιστημίου",
+    "ukrainian": "студентка університету",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "5e09f003-cdfe-40e6-bbc7-0fe0385503d4",
+    "greek": "δεν μου αρέσουν οι εργασίες",
+    "ukrainian": "мені не подобаються завдання",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "75c98a35-0936-4d97-9269-84bf0240144a",
+    "greek": "μου αρέσει να παίζω",
+    "ukrainian": "мені подобається грати",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "05ee3b77-6221-498b-8d64-b4ec82c3cae6",
+    "greek": "στον υπολογιστή του",
+    "ukrainian": "на його комп’ютері",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "88526c8b-2b28-4763-b016-0b1158744c85",
+    "greek": "το διάβασμα και το γράψιμο",
+    "ukrainian": "читання й письмо",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "b9a8f3e5-b36d-440f-9d9e-f81d557bf920",
+    "greek": "η μεγάλη αδερφή",
+    "ukrainian": "старша сестра",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "5165d831-2efb-4624-a59a-1d939bc9c93b",
+    "greek": "Με βάζει πάντα να κάνω",
+    "ukrainian": "вона завжди змушує мене робити",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "89a01c16-8824-439e-ac68-9b51e61cdfc2",
+    "greek": "τις εργασίες μου",
+    "ukrainian": "мої завдання",
+    "type": "phrase",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "7845d57f-d849-424a-887b-cf789282d8f4",
+    "greek": "Είναι ο Γιάννης μαθητής Λυκείου;",
+    "ukrainian": "Янніс — учень ліцею?",
+    "type": "question",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "48cd1281-724f-44f7-b526-600f64ac6818",
+    "greek": "Έχει ο Γιάννης πολλές εργασίες;",
+    "ukrainian": "У Янніса багато завдань?",
+    "type": "question",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "25f1897c-fbe4-47a8-b182-8ad86a96b678",
+    "greek": "Αρέσει στον Γιάννη να παίζει στον υπολογιστή του;",
+    "ukrainian": "Яннісу подобається грати на комп’ютері?",
+    "type": "question",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "cd4c1d1a-fe71-4403-89ab-c3fedd8a0325",
+    "greek": "Αρέσει στην Κλαίρη το διάβασμα και το γράψιμο;",
+    "ukrainian": "Клер подобаються читання й письмо?",
+    "type": "question",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "09f5ea19-699d-431a-b2d1-23f02732f551",
+    "greek": "Κάνει η Κλαίρη τις εργασίες της κάθε μέρα;",
+    "ukrainian": "Клер робить свої завдання щодня?",
+    "type": "question",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "00f134be-28ec-499e-8236-5c51aeb89799",
+    "greek": "Η Κλαίρη είναι η μεγάλη αδερφή του Γιάννη;",
+    "ukrainian": "Клер — старша сестра Янніса?",
+    "type": "question",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "fda4fa25-bbd8-4af2-8934-7b44b36398fc",
+    "greek": "Βάζει η Κλαίρη τον Γιάννη να κάνει τις εργασίες του;",
+    "ukrainian": "Клер змушує Янніса робити його завдання?",
+    "type": "question",
+    "source": "giannis-schoolwork"
+  },
+  {
+    "id": "c946352e-2906-4627-8db4-289083bc2756",
+    "greek": "κουρασμένοι",
+    "ukrainian": "втомлені",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "917ade54-da28-4694-8809-790c17aadc8c",
+    "greek": "κουρασμένος",
+    "ukrainian": "втомлений",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "7868f1d3-9f45-4688-8f3a-64057d330612",
+    "greek": "τη νύχτα",
+    "ukrainian": "уночі",
+    "type": "phrase",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "42d42b82-4804-4137-8b72-a84a198c04f5",
+    "greek": "το βραδινό",
+    "ukrainian": "вечеря",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "c8c534ed-c9e5-4d01-9f7f-3b6160a4b8ce",
+    "greek": "τρώω",
+    "ukrainian": "їсти",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "1cc30402-094b-45c4-b67b-fe59767c52bf",
+    "greek": "τρώνε",
+    "ukrainian": "вони їдять",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "ae59dc9b-b33d-4df4-ac21-20e76bb26e5f",
+    "greek": "τρώμε",
+    "ukrainian": "ми їмо",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "87c2e93e-283d-43c9-9311-8caa9d5f3c1d",
+    "greek": "μαζί",
+    "ukrainian": "разом",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "e4674fee-885f-4e3e-b9e1-7bcb426c2d9f",
+    "greek": "ο γιος",
+    "ukrainian": "син",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "7defb323-17df-4162-9da6-4de12c9cf1c6",
+    "greek": "ξεκουράζομαι",
+    "ukrainian": "відпочивати",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "c19af536-ca88-4e1f-b952-697ef319ee26",
+    "greek": "ξεκουράζονται",
+    "ukrainian": "вони відпочивають",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "fc50a849-1c4d-4c15-8187-6280bb40458b",
+    "greek": "ξεκουραζόμαστε",
+    "ukrainian": "ми відпочиваємо",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "f024f22f-fb2d-4ae3-9e60-c567cc783d62",
+    "greek": "βλέπουν",
+    "ukrainian": "вони дивляться",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "0252498f-d618-4ea3-abe5-3dc40693aeb7",
+    "greek": "βλέπουμε",
+    "ukrainian": "ми дивимося",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "00e195cc-83d5-4e1d-901b-51581db94eb3",
+    "greek": "η τηλεόραση",
+    "ukrainian": "телебачення; телевізор",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "c563525a-a76f-44e9-8658-5e2ac0a3d126",
+    "greek": "βάζω",
+    "ukrainian": "класти; вкладати",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "839fe648-c3ad-494a-b924-1b3093c36906",
+    "greek": "βάζουν",
+    "ukrainian": "вони вкладають",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "4b6bb68b-51ed-496e-bf72-70eb2e74b852",
+    "greek": "βάζουμε",
+    "ukrainian": "ми вкладаємо",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "cbf108f2-5f27-4f88-a31c-e024e85bf70a",
+    "greek": "το κρεβάτι",
+    "ukrainian": "ліжко",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "8af699f5-b436-4dda-8a91-69c144c3308d",
+    "greek": "ζεστός",
+    "ukrainian": "теплий; гарячий",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "72b1d8a0-8cb3-4ed4-a365-fa2314cbc5af",
+    "greek": "το μπάνιο",
+    "ukrainian": "ванна; купання",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "37ae2dfd-84e4-42c0-bf34-1f50afff3050",
+    "greek": "το ντους",
+    "ukrainian": "душ",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "6fadcb22-1840-44fb-8483-7db6f325d8c7",
+    "greek": "κάνω ένα ντους",
+    "ukrainian": "приймати душ",
+    "type": "phrase",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "04ccd43e-881e-42d6-89e0-9206785049be",
+    "greek": "βουρτσίζω",
+    "ukrainian": "чистити щіткою",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "2e91adcb-d575-4d7d-84a7-d03e422df242",
+    "greek": "το δόντι",
+    "ukrainian": "зуб",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "12db6b86-44d2-46bc-910c-f89972b32747",
+    "greek": "διαβάζω",
+    "ukrainian": "читати",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "bc4d5675-a06c-4d03-a7e3-ebfd8c3a5f46",
+    "greek": "διαβάζει",
+    "ukrainian": "він/вона читає",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "83002010-c8e0-4f8d-814e-ce0246be840d",
+    "greek": "το βιβλίο",
+    "ukrainian": "книжка",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "e857a871-a775-45c4-990a-f1abe97a47a7",
+    "greek": "αποκοιμιέμαι",
+    "ukrainian": "засинати",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "a77b16fa-5893-48f2-aa58-657c9625adcd",
+    "greek": "αποκοιμιέται",
+    "ukrainian": "він/вона засинає",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "f3e6ef65-ef79-4df9-93f4-93c356219ef1",
+    "greek": "σύντομα",
+    "ukrainian": "невдовзі",
+    "type": "word",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "cd1ee60a-85a9-439b-ac81-0dbd9e3b4be7",
+    "greek": "στις επτά",
+    "ukrainian": "о сьомій",
+    "type": "phrase",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "56990226-6781-4315-9ca3-15f580374d2c",
+    "greek": "στις οκτώ",
+    "ukrainian": "о восьмій",
+    "type": "phrase",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "67540ef2-453a-4518-b9ab-7f849402199f",
+    "greek": "έναν γιο",
+    "ukrainian": "одного сина",
+    "type": "phrase",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "a2826e1d-0241-4c23-a3bd-a31fdc969920",
+    "greek": "ένα ζεστό μπάνιο",
+    "ukrainian": "теплу ванну",
+    "type": "phrase",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "01fc33ef-c713-4b2c-8495-5f61ba86a4c3",
+    "greek": "βουρτσίζει τα δόντια του",
+    "ukrainian": "чистить зуби",
+    "type": "phrase",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "dbd09eb9-dcc7-4b09-966f-5af4bbe49315",
+    "greek": "Είναι ο Φρειδερίκος και η Ιωάννα κουρασμένοι;",
+    "ukrainian": "Фредерік та Іоанна втомлені?",
+    "type": "question",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "dbcc8b9c-3ba3-4ca2-a064-bb51470f58a1",
+    "greek": "Τρώνε βραδινό στις έξι;",
+    "ukrainian": "Вони вечеряють о шостій?",
+    "type": "question",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "44229f68-8414-4e46-89ef-b61bec2ffa1f",
+    "greek": "Έχουν μια κόρη;",
+    "ukrainian": "У них є донька?",
+    "type": "question",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "d14a1d31-d372-47aa-afd3-b0e0b7e636fa",
+    "greek": "Βλέπει ο γιος τους τηλεόραση;",
+    "ukrainian": "Їхній син дивиться телевізор?",
+    "type": "question",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "04d71d47-583b-44bf-ab3d-0191bf412b2f",
+    "greek": "Πηγαίνει ο γιος τους στο κρεβάτι στις εννιά;",
+    "ukrainian": "Їхній син лягає в ліжко о дев’ятій?",
+    "type": "question",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "468ed6fc-683a-4165-892e-3b84b9fbc375",
+    "greek": "Κάνει ντους η Ιωάννα;",
+    "ukrainian": "Іоанна приймає душ?",
+    "type": "question",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "6c0e111f-a292-4e10-a6ed-e9144cd097e4",
+    "greek": "Βουρτσίζει τα δόντια του ο Φρειδερίκος;",
+    "ukrainian": "Фредерік чистить зуби?",
+    "type": "question",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "de5cc9ab-0072-431c-85da-41053fe91309",
+    "greek": "Διαβάζει ένα βιβλίο η Ιωάννα;",
+    "ukrainian": "Іоанна читає книжку?",
+    "type": "question",
+    "source": "ioanna-evening-routine"
+  },
+  {
+    "id": "87143db8-7ee9-48a1-a898-a1e6fe1312ae",
+    "greek": "ο φούρνος",
+    "ukrainian": "пекарня; духовка",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "7298cdd1-64cd-41c6-9f73-7de4567f2372",
+    "greek": "η καφετέρια",
+    "ukrainian": "кав’ярня",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "52e56048-12f5-4422-9a41-09f1b1d54bfc",
+    "greek": "το χωριάτικο ψωμί",
+    "ukrainian": "сільський хліб",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "2f9bfb19-117a-438e-b6f0-2c40be6ce366",
+    "greek": "το κουλουράκι",
+    "ukrainian": "печиво-курураб’є; маленьке печиво",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "20bc0569-1e0e-4471-9ba0-1c65c86352e7",
+    "greek": "η τυρόπιτα",
+    "ukrainian": "пиріг із сиром",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "a45e20e8-1c4d-4a99-895b-981ca820ec2d",
+    "greek": "η σπανακόπιτα",
+    "ukrainian": "пиріг зі шпинатом",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "895373b7-d3a6-4e73-a122-fc2cae289173",
+    "greek": "ο φραπέ",
+    "ukrainian": "фрапе",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "0af44faa-215c-4200-a130-5cf8b61aa848",
+    "greek": "ο ελληνικός καφές",
+    "ukrainian": "грецька кава",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "4f710b82-ad4b-45b4-8125-0f5afa9c4dd2",
+    "greek": "ο καπουτσίνο",
+    "ukrainian": "капучино",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "cdb4b6d0-ae57-4e52-8512-b6e14032b1c5",
+    "greek": "το τσάι",
+    "ukrainian": "чай",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "c36f5e83-fcec-4032-8be5-d31c76bde472",
+    "greek": "το κέικ",
+    "ukrainian": "тістечко; кекс",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "1fd4f6b0-f506-44f5-b67b-72c20c1a1dcc",
+    "greek": "το κρουασάν",
+    "ukrainian": "круасан",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "084f936c-14c3-4f87-981e-00ca545f5dc4",
+    "greek": "ο εσπρέσο φρέντο",
+    "ukrainian": "еспресо фредо",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "a21f1ac6-6908-4b11-88f2-8477292b7bef",
+    "greek": "η τούρτα",
+    "ukrainian": "торт",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "c5ad8264-e803-4acd-a19f-98b2c1122a56",
+    "greek": "το κουλούρι",
+    "ukrainian": "бублик із кунжутом",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "5caa1e52-3b43-431c-8294-ffd7bd1bb21c",
+    "greek": "η απόδειξη",
+    "ukrainian": "чек",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "8198a0e8-f635-484c-b40f-a9c04c7cefd0",
+    "greek": "τα μετρητά",
+    "ukrainian": "готівка",
+    "type": "word",
+    "source": "periptero-a1-a2-previous-source"
+  },
+  {
+    "id": "586c73f4-fd0c-44ea-b9a2-def7f86dcaa3",
+    "greek": "το ευρώ",
+    "ukrainian": "євро",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "314785fc-8859-4b15-8228-52df15554232",
+    "greek": "το λεπτό",
+    "ukrainian": "цент; хвилина",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "d2c4f18b-4128-49fa-989f-ded335d69a2b",
+    "greek": "πεντακόσια γραμμάρια",
+    "ukrainian": "п’ятсот грамів",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "a495ca81-e29e-4b5a-8efa-5e83479c1100",
+    "greek": "δίπλα στο σπίτι μου",
+    "ukrainian": "поруч із моїм будинком",
+    "type": "phrase",
+    "source": "periptero-a1-a2-previous-source"
+  },
+  {
+    "id": "9e5a6f60-04a5-47e4-a3d1-54f4d2f053f9",
+    "greek": "καμιά φορά",
+    "ukrainian": "іноді",
+    "type": "phrase",
+    "source": "periptero-a1-a2-previous-source"
+  },
+  {
+    "id": "b49f31fd-9c20-4ea1-a5bd-c3f0505193bd",
+    "greek": "κάθε απόγευμα",
+    "ukrainian": "щовечора",
+    "type": "phrase",
+    "source": "periptero-a1-a2-previous-source"
+  },
+  {
+    "id": "8aaf8ea5-a8d6-45fd-86a0-0e0915a53f41",
+    "greek": "σκέτος",
+    "ukrainian": "без цукру / добавок",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "dba4a191-53bd-4721-9e91-e500d3ffdd86",
+    "greek": "τέλεια",
+    "ukrainian": "чудовий; ідеальний",
+    "type": "word",
+    "source": "periptero-a1-a2-previous-source"
+  },
+  {
+    "id": "337d3b7a-dbb1-47c6-b220-ed16c37bb00b",
+    "greek": "Μ’ αρέσει πολύ.",
+    "ukrainian": "Мені дуже подобається.",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "f44d6215-4532-4e74-b106-653e761b0e57",
+    "greek": "Δεν μ’ αρέσει καθόλου.",
+    "ukrainian": "Мені зовсім не подобається.",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "708537e8-3a21-417f-a49f-55dfde3d5cc7",
+    "greek": "η γειτονιά",
+    "ukrainian": "район; околиця",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "3fc94270-a098-44e6-b69f-773dfdc213b5",
+    "greek": "ο φούρναρης",
+    "ukrainian": "пекар",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "7f59ce75-6be8-47f8-a4be-13b9cbb03da9",
+    "greek": "το πακέτο χαρτομάντιλα",
+    "ukrainian": "пачка паперових хустинок",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "9ffdef8b-90be-4677-b950-b7d312fc50c3",
+    "greek": "το ψιλό",
+    "ukrainian": "дрібна монета",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "3c5d3ff6-a420-4049-bab2-f079592ff713",
+    "greek": "το εικοσάευρο",
+    "ukrainian": "банкнота у 20 євро",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "5da3d1af-4e75-4725-89e3-058c66e7840c",
+    "greek": "το ψωμί",
+    "ukrainian": "хліб",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "9251dde9-d9a0-412b-aeb4-3478109c1ecb",
+    "greek": "το τσουρέκι",
+    "ukrainian": "солодкий великодній хліб",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "636d4027-8b8b-45dd-a197-530ba7c56b10",
+    "greek": "το κομμάτι",
+    "ukrainian": "шматок",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "bd452371-143c-49ed-bbbb-623598a89ee7",
+    "greek": "σπιτικός",
+    "ukrainian": "домашній; домашнього приготування",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "c7534580-3c94-4f58-b970-59843ee16736",
+    "greek": "το σάντουιτς",
+    "ukrainian": "сендвіч",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "be118b52-250a-43a9-a609-e40bc1d6adb9",
+    "greek": "ο γαλλικός καφές",
+    "ukrainian": "фільтр-кава",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "44a364f5-43a9-4d5b-a429-6ad193277063",
+    "greek": "ο εσπρέσο",
+    "ukrainian": "еспресо",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "0c00f79b-fe6d-4f25-9d41-97088276a248",
+    "greek": "ο χυμός πορτοκάλι",
+    "ukrainian": "апельсиновий сік",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "fe468d33-3dc8-485e-b707-aff22c7bc253",
+    "greek": "η ζάχαρη",
+    "ukrainian": "цукор",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "04415074-5a0d-448d-8877-a1735aa5295b",
+    "greek": "μέτριος",
+    "ukrainian": "середньої солодкості",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "f49fb6d1-ac4e-48bb-aa8e-7ace0993a831",
+    "greek": "γλυκός",
+    "ukrainian": "солодкий",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "67c4d19f-0316-43dc-9f8a-a27d53d2c042",
+    "greek": "κρύος",
+    "ukrainian": "холодний",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "e1ff66eb-81b2-4a73-8d12-8482e167bc4b",
+    "greek": "τέλειος",
+    "ukrainian": "чудовий; ідеальний",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "b1488d0c-feae-4729-81ea-47065dea72dd",
+    "greek": "το τέταρτο του κιλού",
+    "ukrainian": "чверть кілограма",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "a9f44cdf-d2ee-434f-874f-3e0e7cb62875",
+    "greek": "τα γραμμάρια",
+    "ukrainian": "грами",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "ce7ef922-2d25-444c-9949-ad94fbb132d6",
+    "greek": "η κατάληξη",
+    "ukrainian": "закінчення слова",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "d914779b-7236-43d5-9aa3-aab5711dc96c",
+    "greek": "η ονομαστική",
+    "ukrainian": "називний відмінок",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "3be64d79-3981-41c9-971e-7cd9ec848436",
+    "greek": "η αιτιατική",
+    "ukrainian": "знахідний відмінок",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "49ea5148-6a13-46fc-8baa-ff0f64bbb05d",
+    "greek": "το άρθρο",
+    "ukrainian": "артикль",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "a4e96099-ce8b-483b-aed7-80103fe1cfa7",
+    "greek": "το ραντεβού",
+    "ukrainian": "зустріч; домовлена зустріч",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "7290babe-8741-425f-a17f-b055801b8f7a",
+    "greek": "η βόλτα",
+    "ukrainian": "прогулянка",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "ac89e4bb-2d13-46fb-b1d1-7aabc4b40b51",
+    "greek": "η θάλασσα",
+    "ukrainian": "море",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "3064089f-4505-44ff-9fcc-cf731285feda",
+    "greek": "η μητέρα",
+    "ukrainian": "мати",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "ae247dc7-324d-4e89-9c3c-77e445b09575",
+    "greek": "το πρωί",
+    "ukrainian": "ранок; уранці",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "5fa93b98-ae33-487a-9808-12b03c7e2b1c",
+    "greek": "το Σάββατο",
+    "ukrainian": "субота; у суботу",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "770d82a2-e4b0-4827-babb-b0b3f11a5ea0",
+    "greek": "καινούργιος",
+    "ukrainian": "новий",
+    "type": "word",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "95a34249-b47b-42c6-9164-d9654f72b35f",
+    "greek": "έτσι κι έτσι",
+    "ukrainian": "так собі",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "7d87f986-8e9e-49ff-9f69-bea66fe1880d",
+    "greek": "Πώς τον θέλετε;",
+    "ukrainian": "Яку каву бажаєте?",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "712011f7-58aa-4502-904e-33a9a4a48aa7",
+    "greek": "Έχετε ψιλά;",
+    "ukrainian": "У вас є дрібні гроші?",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "d01e6cf4-ed11-4ea4-a2b4-10af979fc533",
+    "greek": "Ορίστε τα ρέστα σας.",
+    "ukrainian": "Ось ваша решта.",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "e8658f80-79b5-44f2-89d3-3923a2894b0c",
+    "greek": "Θα ήθελα…",
+    "ukrainian": "Я хотів би / хотіла б…",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "b8eaf365-e51b-4fc4-bfb0-98f93a78b879",
+    "greek": "Μου αρέσει.",
+    "ukrainian": "Мені подобається.",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "5c8cab55-0a8f-4432-ae85-41f5ac640386",
+    "greek": "Δεν μ’ αρέσει.",
+    "ukrainian": "Мені не подобається.",
+    "type": "phrase",
+    "source": "periptero-a1-a2"
+  },
+  {
+    "id": "2d74b066-ad9d-4fd3-b3e4-44bcafa771b9",
+    "greek": "το αγαπημένο μαγαζί",
+    "ukrainian": "улюблений магазин",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "0cc409bb-5734-4212-9245-c308a5523680",
+    "greek": "το μαγαζί",
+    "ukrainian": "магазин; крамниця",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "cb5c82d2-be97-4dfb-a304-940e10434402",
+    "greek": "δίπλα σε",
+    "ukrainian": "поруч із",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "bd321c33-b24d-4c70-8cec-c36b20c4c5d6",
+    "greek": "ο πάγος",
+    "ukrainian": "лід",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "0b14024a-5fa9-489d-9411-2c62674828a9",
+    "greek": "το καλοκαίρι",
+    "ukrainian": "літо",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "9c0172bd-6234-46f1-891f-9f5bd8e249dd",
+    "greek": "η φωτιά",
+    "ukrainian": "вогонь",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "5d172224-ed58-44be-be6e-6f43e5586be0",
+    "greek": "τα γενέθλια",
+    "ukrainian": "день народження",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "976e9d20-0a0b-4d0a-b84a-bfd6da2d25a8",
+    "greek": "το μέλι",
+    "ukrainian": "мед",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "c390f757-6e19-43a7-8f38-6cc48569e6f2",
+    "greek": "στρογγυλός",
+    "ukrainian": "круглий",
+    "type": "word",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "654182b5-4b02-48de-b4c3-d26e71265af0",
+    "greek": "το σουσάμι",
+    "ukrainian": "кунжут",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "7ed38c05-e29e-496e-b275-bd7c0a484942",
+    "greek": "το απόγευμα",
+    "ukrainian": "післяобідній час; вечір",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "2c9a570a-b7bc-41f2-b0c5-03705aee5232",
+    "greek": "μένω",
+    "ukrainian": "жити; мешкати",
+    "type": "word",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "46f63587-4c79-46c2-9771-3101983b856a",
+    "greek": "πληρώνω",
+    "ukrainian": "платити",
+    "type": "word",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "b1aba1df-f599-4ee8-b7b9-06b0c90e0611",
+    "greek": "μου αρέσει",
+    "ukrainian": "мені подобається",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "51deacf5-44c5-4d6b-bcd2-11212cee1714",
+    "greek": "δεν μ’ αρέσει",
+    "ukrainian": "мені не подобається",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "eb6fc2ab-49ea-4a92-b7bd-22800d682ed4",
+    "greek": "δεν μ’ αρέσει καθόλου",
+    "ukrainian": "мені зовсім не подобається",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "4b7807a6-d937-4e54-a12e-a96afcede0b9",
+    "greek": "Όλα μαζί κάνουν…",
+    "ukrainian": "Усе разом коштує…",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "7ec2453e-d00c-47be-9da5-afdcc4cc9d8b",
+    "greek": "Καλησπέρα σας.",
+    "ukrainian": "Добрий вечір. (ввічливо)",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "0a288184-68cd-4a2b-90e8-78b2bc449f1a",
+    "greek": "Έχετε το περιοδικό…;",
+    "ukrainian": "У вас є журнал…?",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "111a1e8a-e9b0-4c02-a99e-257d4ac0e23f",
+    "greek": "πόσο συχνά",
+    "ukrainian": "як часто",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "5aa86f95-b524-4f04-bc73-93ad2fc830ae",
+    "greek": "τρία ευρώ και τριάντα λεπτά",
+    "ukrainian": "три євро й тридцять центів",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "4a3adc61-ba46-448c-b2b9-dd83f27754dc",
+    "greek": "η Ιταλία",
+    "ukrainian": "Італія",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "f8313a17-58c7-46e6-8015-cd9549ec748c",
+    "greek": "η Λεμεσός",
+    "ukrainian": "Лімасол",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "647db08a-1277-4320-bbaf-33233bf9ee9a",
+    "greek": "ο κατάλογος",
+    "ukrainian": "меню",
+    "type": "phrase",
+    "source": "periptero-homework-a1-a2"
+  },
+  {
+    "id": "a2fc4b15-312b-49c5-b360-a7aa3e5ca804",
+    "greek": "ο μαρκαδόρος",
+    "ukrainian": "маркер",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "cbda0a76-c238-4e2a-8868-a945e3a60d60",
+    "greek": "το κινητό",
+    "ukrainian": "мобільний телефон",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "b5953006-abc9-4996-8638-2a217b88f430",
+    "greek": "το λάπτοπ",
+    "ukrainian": "ноутбук",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "26431f44-2eaa-4dd8-90c9-6e5319b56ed5",
+    "greek": "το γλυκό",
+    "ukrainian": "десерт; солодке",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "41385cf0-ccd7-424b-940b-531e68d89237",
+    "greek": "το προφιτερόλ",
+    "ukrainian": "профітроль",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "595a0555-f0df-4736-a66c-82630a0cc46a",
+    "greek": "η γνώμη",
+    "ukrainian": "думка",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "f05dc6be-6610-4dac-8b11-670364db0e48",
+    "greek": "παλιός",
+    "ukrainian": "старий",
+    "type": "word",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "befb066b-b368-4459-bc0a-4f1dd2ada423",
+    "greek": "μαύρος",
+    "ukrainian": "чорний",
+    "type": "word",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "75b6f057-66c5-49e3-8b39-816c69e40876",
+    "greek": "ελληνικός",
+    "ukrainian": "грецький",
+    "type": "word",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "0fb38294-4d6f-4afb-a47e-bc4c92e8e574",
+    "greek": "μικρός",
+    "ukrainian": "маленький",
+    "type": "word",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "b009e07a-38bc-4859-b6a2-1879f424e364",
+    "greek": "Πόσο κάνει αυτός ο καφές;",
+    "ukrainian": "Скільки коштує ця кава?",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "f3b3cbde-299a-46bb-8b31-3493085df1e7",
+    "greek": "… κάνει … ευρώ.",
+    "ukrainian": "… коштує … євро.",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "c1afd9e0-e26f-482d-9d2a-4c3cd7f6e38f",
+    "greek": "όλα μαζί",
+    "ukrainian": "усе разом",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "0f6581df-5f2a-4900-b4e1-0d45af19ed78",
+    "greek": "Παρακαλώ;",
+    "ukrainian": "Будь ласка? / Чим можу допомогти?",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "bb60dc5b-1b1e-4747-9d68-645f47ad7728",
+    "greek": "τα λεπτά",
+    "ukrainian": "центи; хвилини",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "3b5120a5-c6c5-4bc8-be97-29e4f5124801",
+    "greek": "ενάμιση ευρώ",
+    "ukrainian": "євро п’ятдесят центів",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "0a87aeb9-dfcd-4b4b-95be-d71955635b9d",
+    "greek": "δύο ευρώ και είκοσι λεπτά",
+    "ukrainian": "два євро двадцять центів",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "a6cf1deb-b9b9-4170-8a98-eb387a75f02a",
+    "greek": "αυτός",
+    "ukrainian": "цей; це (чоловічий рід)",
+    "type": "word",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "9ed5e999-753c-4418-b57e-5bff54898bb3",
+    "greek": "αυτή",
+    "ukrainian": "ця; це (жіночий рід)",
+    "type": "word",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "ae0a1b7b-6aab-4b5f-a4fa-a7bd3a5521c5",
+    "greek": "αυτό",
+    "ukrainian": "це (середній рід)",
+    "type": "word",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "03eb136d-072a-48cd-8323-3cd7c473cfba",
+    "greek": "σου αρέσει",
+    "ukrainian": "тобі подобається",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "6e07e66e-d87a-4e06-87c8-5e97837e245b",
+    "greek": "σας αρέσει",
+    "ukrainian": "вам подобається",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "0d7f7f25-1a6f-4bf4-b74d-fa4efd80ca32",
+    "greek": "μ’ αρέσει πολύ",
+    "ukrainian": "мені дуже подобається",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "6e3ce125-365b-4611-b764-70d1a55c51d8",
+    "greek": "Μ’ αρέσει ο καφές.",
+    "ukrainian": "Мені подобається кава.",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "c842290c-3634-464f-a1d8-e0ef8af6f12f",
+    "greek": "Σ’ αρέσει η τυρόπιτα;",
+    "ukrainian": "Тобі подобається пиріг із сиром?",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "e0d68bb6-ee91-4f83-9eb9-5700003fa820",
+    "greek": "Καλημέρα σας.",
+    "ukrainian": "Доброго ранку. (ввічливо)",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "25ea3c1c-5467-474d-a0ad-5f329b4ccdf6",
+    "greek": "Γεια σας!",
+    "ukrainian": "До побачення!",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "dc3553a9-1c88-4fb1-935f-1ebbbfffcaca",
+    "greek": "Κυρία μου",
+    "ukrainian": "пані",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "001deb21-1d67-48c8-925f-706fe2219d32",
+    "greek": "Κύριε Παππά",
+    "ukrainian": "пане Паппа",
+    "type": "phrase",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "978a1c75-4834-4260-a3df-109492e97f2e",
+    "greek": "φίλοι",
+    "ukrainian": "друзі",
+    "type": "word",
+    "source": "mathima7-autos-mou-aresei"
+  },
+  {
+    "id": "0915cc0a-5ae6-47d3-9cd4-39b823de2e9e",
+    "greek": "καταλαβαίνω",
+    "ukrainian": "розуміти",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "9c00db60-0fa4-4e5e-9dfd-b8269a8ae795",
+    "greek": "γράφω",
+    "ukrainian": "писати",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "411fa1ca-6c51-44c0-a0f8-7e137b669373",
+    "greek": "μαθαίνω",
+    "ukrainian": "вчити; вивчати",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "8059a434-de89-4757-b22b-67a281d9e1ac",
+    "greek": "αγαπάω",
+    "ukrainian": "любити",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "01f28feb-d5b8-41d6-b888-730e0afd938a",
+    "greek": "βοηθάω",
+    "ukrainian": "допомагати",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "f9e3b3ae-05f5-47b9-8dcc-8f52aa5d353b",
+    "greek": "γελάω",
+    "ukrainian": "сміятися",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "b64f7e65-ae12-4555-8076-073bd871d6d7",
+    "greek": "ρωτάω",
+    "ukrainian": "питати",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "3ee29ea8-cb63-4dd9-b2f3-bb57344e5869",
+    "greek": "προτιμάω",
+    "ukrainian": "віддавати перевагу",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "227517f3-4d91-4577-95a5-006356ff0ca1",
+    "greek": "τραγουδάω",
+    "ukrainian": "співати",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "13659043-3a60-4315-95af-26f1b02df886",
+    "greek": "σταματάω",
+    "ukrainian": "зупиняти(ся)",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "dd93a488-c7a1-47de-8add-93bfe694d4f0",
+    "greek": "πεινάω",
+    "ukrainian": "хотіти їсти",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "e37941b4-23ae-44e0-be67-fc1858c103d6",
+    "greek": "διψάω",
+    "ukrainian": "хотіти пити",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "d91434ec-a745-4948-ad89-2c82f0f30a68",
+    "greek": "βοηθάει",
+    "ukrainian": "допомагає (вона)",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "857883fa-7d06-4075-9f42-ec226e09df27",
+    "greek": "διαβάζουμε",
+    "ukrainian": "ми читаємо",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "a420004e-8f32-4117-a89b-2cbad43615bf",
+    "greek": "γράφουμε",
+    "ukrainian": "ми пишемо",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "2c114ee8-e7fe-49f5-a98c-a9dd11cf3f41",
+    "greek": "ρωτάμε",
+    "ukrainian": "ми запитуємо",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "68291608-d6c7-49dd-b254-b72b951b9da8",
+    "greek": "γελάμε",
+    "ukrainian": "ми сміємося",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "0b703845-376d-4258-945f-ab2f832362ca",
+    "greek": "μένουν",
+    "ukrainian": "вони живуть",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "f945842d-940d-4aee-99da-18896fa13bdb",
+    "greek": "μαθαίνουν",
+    "ukrainian": "вони вивчають",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "a849a94e-1328-4bdd-8166-9e1d0dfc84d2",
+    "greek": "τραγουδάμε",
+    "ukrainian": "ми співаємо",
+    "type": "word",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "cba4a3cc-b67b-4e9f-bf5a-ecd080d971b3",
+    "greek": "στο κέντρο",
+    "ukrainian": "у центрі",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "bf626eea-6ecb-473f-a05f-60fe623b5852",
+    "greek": "κάθε Τρίτη και Πέμπτη",
+    "ukrainian": "щовівторка й щочетверга",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "5ca65c05-f3db-4095-bc91-f0671cd91c9f",
+    "greek": "πηγαίνω στο μάθημα",
+    "ukrainian": "ходжу на урок",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "9b21ef2c-1c10-4739-804d-d46d98bff13c",
+    "greek": "μιλάει αργά",
+    "ukrainian": "говорить повільно",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "8a1b1397-d446-47bc-a326-05cdc42b52a4",
+    "greek": "βοηθάει πολύ",
+    "ukrainian": "дуже допомагає",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "4db932e9-402f-4714-8fed-41486331a319",
+    "greek": "καταλαβαίνω αρκετά",
+    "ukrainian": "я досить добре розумію",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "2643860b-cadd-4b54-bd69-aab9fc981d7d",
+    "greek": "δεν ξέρω ακόμα",
+    "ukrainian": "я ще не знаю",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "56d8f029-4915-44c6-92cd-62b7cf2d84c5",
+    "greek": "σε μια καφετέρια",
+    "ukrainian": "у кав’ярні",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "46315958-c3ae-4e6f-951b-0c594a1f53a8",
+    "greek": "προτιμάω καφέ",
+    "ukrainian": "віддаю перевагу каві",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "36fc172b-d6f9-45c1-a785-aeeda3fff5ef",
+    "greek": "μένουν κοντά",
+    "ukrainian": "живуть неподалік",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "c684df63-b8e0-4640-9c4f-6f48f5023463",
+    "greek": "τραγουδάμε μαζί",
+    "ukrainian": "ми співаємо разом",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "7325641b-ebbe-46d7-b6c3-0441ee63023d",
+    "greek": "Πού μένεις τώρα;",
+    "ukrainian": "Де ти тепер живеш?",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "bbaa24cc-81c2-4e42-8375-8cd833512f35",
+    "greek": "Δουλεύεις ακόμα στην Αθήνα;",
+    "ukrainian": "Ти й досі працюєш в Афінах?",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "cc6aa633-a323-4c38-9106-48e7b7896cce",
+    "greek": "Τι νέα;",
+    "ukrainian": "Як справи?",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "6d9a14b7-dbb0-4bd5-b128-164143568517",
+    "greek": "Κι εσύ;",
+    "ukrainian": "А ти?",
+    "type": "phrase",
+    "source": "rimata-a-b1-present"
+  },
+  {
+    "id": "1b9984fa-b129-4ba8-9db6-1538078d1ad3",
+    "greek": "όμορφος",
+    "ukrainian": "гарний, вродливий",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "41762ee9-2668-4ca5-a78e-338f591c1e18",
+    "greek": "ψηλός",
+    "ukrainian": "високий",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "ffaa762a-2511-4b48-af5b-26415a33a6ea",
+    "greek": "κοντός",
+    "ukrainian": "низький; короткий",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "1debc6c4-89fb-4f26-99f9-5c1005f01fe4",
+    "greek": "δύσκολος",
+    "ukrainian": "складний",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "5e8938b1-800a-4b20-8c11-a535e96ae639",
+    "greek": "εύκολος",
+    "ukrainian": "легкий; простий",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "aa61254e-4010-436c-be62-8f5c806dd873",
+    "greek": "ωραίος",
+    "ukrainian": "гарний; чудовий",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "a167dd15-ea77-4c40-91f7-3c4f2b8f948c",
+    "greek": "καινούριος",
+    "ukrainian": "новий",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "f443b4dd-35a0-4f36-b9eb-546063b75ea0",
+    "greek": "πλούσιος",
+    "ukrainian": "багатий",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "bb7cfce1-62d7-4f78-bdd7-1616db32ebe2",
+    "greek": "ο άντρας",
+    "ukrainian": "чоловік",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "57cd2dab-c1d3-4d48-b41c-c5369592d0bc",
+    "greek": "η γυναίκα",
+    "ukrainian": "жінка",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "41129055-d11a-430f-988d-90c797fe097a",
+    "greek": "το παιδί",
+    "ukrainian": "дитина",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "3360b575-03eb-4662-a580-bff0405d4cef",
+    "greek": "ο κύριος",
+    "ukrainian": "пан; чоловік",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "0a7ad35c-cb81-4b00-8ce7-56478d8a0ac6",
+    "greek": "η κυρία",
+    "ukrainian": "пані; жінка",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "d47bec35-9fee-4e74-a4bf-619b759da7e7",
+    "greek": "ο καθηγητής",
+    "ukrainian": "викладач; учитель",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "e6d01fc0-9884-4a92-b161-eaef1a47e764",
+    "greek": "η καθηγήτρια",
+    "ukrainian": "викладачка; учителька",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "9931fefa-1512-44b5-9942-b33f5fdb0f44",
+    "greek": "ο γιατρός",
+    "ukrainian": "лікар",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "a198f954-7441-48a4-971e-0a9b03ef82df",
+    "greek": "ο δικηγόρος",
+    "ukrainian": "юрист; адвокат",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "69750aec-4fab-449b-9cca-be3c7ff76a39",
+    "greek": "ο φαρμακοποιός",
+    "ukrainian": "фармацевт",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "37446b9f-3fbc-4815-8168-ae3a88f2765a",
+    "greek": "η κομμώτρια",
+    "ukrainian": "перукарка",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "48ef4bb1-e5b2-4685-8c54-b39751c119b4",
+    "greek": "ο μηχανικός",
+    "ukrainian": "інженер; механік",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "2b30ad97-b8b4-4c62-bc66-d204ae9e4a19",
+    "greek": "η δασκάλα",
+    "ukrainian": "учителька",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "76f88aed-eead-4afe-a612-bb2537956efb",
+    "greek": "ο μαθητής",
+    "ukrainian": "учень",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "be63efc2-70e6-476e-ba16-000f9480d7bb",
+    "greek": "η Ελλάδα",
+    "ukrainian": "Греція",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "96272e55-7b6d-4402-82bc-0a3b24707afe",
+    "greek": "η Σουηδία",
+    "ukrainian": "Швеція",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "d87dd19b-b1f9-4fc1-a642-45addb3212e6",
+    "greek": "η Αγγλία",
+    "ukrainian": "Англія",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "90e91f4b-d010-46cc-8b11-19e9ca7c25f8",
+    "greek": "το Ιράκ",
+    "ukrainian": "Ірак",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "51f7276c-1955-4ed6-8b2e-198dd5693419",
+    "greek": "η Συρία",
+    "ukrainian": "Сирія",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "a2f3a76f-ca22-4137-9d54-c971105066a5",
+    "greek": "η Ουγγαρία",
+    "ukrainian": "Угорщина",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "8922738f-a175-4de2-a7f5-ddaf554ec4fd",
+    "greek": "η Νέα Υόρκη",
+    "ukrainian": "Нью-Йорк",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "39a226ee-85ca-497d-b34d-66e56e764909",
+    "greek": "το Παρίσι",
+    "ukrainian": "Париж",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "b6d85d68-9a57-4e19-8fab-9d001323f37a",
+    "greek": "η Ρώμη",
+    "ukrainian": "Рим",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "96d4ebbe-edea-4945-b6b3-ac7f038c8434",
+    "greek": "το Τορόντο",
+    "ukrainian": "Торонто",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "d98eacff-d170-4ab6-962f-6512b81decce",
+    "greek": "το Βερολίνο",
+    "ukrainian": "Берлін",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "d2b10994-5dd7-493b-8afe-15aa1bdd60ba",
+    "greek": "η Βαρκελώνη",
+    "ukrainian": "Барселона",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "cb3bf39e-3010-493b-9896-1d59fc10b4f4",
+    "greek": "η άσκηση",
+    "ukrainian": "вправа",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "3edd9753-6d4d-41d2-83a4-f50b15af64c0",
+    "greek": "το τεστ",
+    "ukrainian": "тест",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "6f69d55f-3e60-4a8f-9aac-b64e436c9550",
+    "greek": "η τσάντα",
+    "ukrainian": "сумка",
+    "type": "word",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "e79805e0-ad94-4c7a-8865-4bd951b5665d",
+    "greek": "Ποιος είναι αυτός;",
+    "ukrainian": "Хто це? (чол. рід)",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "34974bdc-cf96-4d30-962d-dc43e78e8677",
+    "greek": "Ποια είναι αυτή;",
+    "ukrainian": "Хто це? (жін. рід)",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "0f703a38-1a84-4b8d-9d0b-af01335bff6d",
+    "greek": "Ποιο είναι αυτό;",
+    "ukrainian": "Що це? (сер. рід)",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "c87d3b46-7f58-4d61-825a-aabee753deeb",
+    "greek": "Ποιος είναι αυτός ο κύριος;",
+    "ukrainian": "Хто цей пан?",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "4f263507-a347-407e-a7d0-8c92e1057559",
+    "greek": "Από πού είναι;",
+    "ukrainian": "Звідки він / вона?",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "333e9d6e-533c-49f6-9a7e-504211c698cf",
+    "greek": "Πού μένει τώρα;",
+    "ukrainian": "Де він / вона тепер живе?",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "9f947818-9759-4ae5-9cbd-4b9ec620ede0",
+    "greek": "Τι δουλειά κάνει;",
+    "ukrainian": "Ким він / вона працює?",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "2e82e9ff-251d-4227-90f3-557710525163",
+    "greek": "Αυτός είναι ο Κώστας.",
+    "ukrainian": "Це Костас.",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "38dbe47e-837a-41f8-ae4b-12bca6238df4",
+    "greek": "Αυτή είναι η Λιβ.",
+    "ukrainian": "Це Лів.",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "cf03e1a7-6ae9-4034-b80a-1a2f3db489dd",
+    "greek": "Αυτό είναι το βιβλίο της Ελένης.",
+    "ukrainian": "Це книжка Елени.",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "7225743f-0f1b-4f45-9e54-e08c2a7c7b4f",
+    "greek": "αυτός ο ψηλός άντρας",
+    "ukrainian": "цей високий чоловік",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "2be08e91-1d3c-4cda-aca3-94c220cfec24",
+    "greek": "αυτή η νέα γυναίκα",
+    "ukrainian": "ця молода жінка",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "9008c8a6-c344-43a1-a388-c8b079ec5287",
+    "greek": "αυτό το παλιό βιβλίο",
+    "ukrainian": "ця стара книжка",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "927baa1c-c994-4ce9-a4f8-2dcdc239f363",
+    "greek": "από την Ελλάδα",
+    "ukrainian": "із Греції",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "78ca9ed4-a966-486a-b573-963e89fd5acf",
+    "greek": "μένει στη Νέα Υόρκη",
+    "ukrainian": "живе в Нью-Йорку",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "270ab37b-7b17-44ff-9782-eb4547ba2b58",
+    "greek": "είναι δικηγόρος",
+    "ukrainian": "працює юристом",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "3561ee16-d25c-4431-b683-0c8986772cbf",
+    "greek": "μένει στο Παρίσι",
+    "ukrainian": "живе в Парижі",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "15af4174-f05f-4559-8279-9e76047f31a3",
+    "greek": "είναι γιατρός",
+    "ukrainian": "працює лікарем",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "30531ee2-37a0-4569-9640-5c571707de5c",
+    "greek": "είναι από την Αγγλία",
+    "ukrainian": "він / вона з Англії",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "e55af375-3250-4804-b812-7cc917787ab9",
+    "greek": "το καινούριο αυτοκίνητο",
+    "ukrainian": "новий автомобіль",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "5308d306-1f47-4c19-b52f-f7743130c66f",
+    "greek": "η παλιά τσάντα",
+    "ukrainian": "стара сумка",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "ef1b3716-02fd-4077-9724-711237cae12f",
+    "greek": "μια εύκολη άσκηση",
+    "ukrainian": "легка вправа",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  },
+  {
+    "id": "b30c84ac-7b27-4997-b280-9fa34f08897d",
+    "greek": "ένας ζεστός καφές",
+    "ukrainian": "гаряча кава",
+    "type": "phrase",
+    "source": "mathima8-poios-poia-poio"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "fd0a8170-e90f-4289-852a-d874fb0e8ccb",
+    "greek": "Από πού είναι οι πελάτες;",
+    "ukrainian": "Звідки клієнти?",
+    "type": "question",
+    "source": "michalis"
+  },
+  {
+    "id": "e7aa7e83-042e-408f-a11b-1f95d03b7e1c",
+    "greek": "Για ποιους μαγειρεύει;",
+    "ukrainian": "Для кого він готує?",
+    "type": "question",
+    "source": "michalis"
+  },
+  {
+    "id": "002a12d4-6b02-4560-90af-a751de106733",
+    "greek": "είναι μάγειρας",
+    "ukrainian": "є кухарем",
+    "type": "phrase",
+    "source": "michalis"
+  },
+  {
+    "id": "a3ad2264-4021-4f1d-b9ae-b199da352445",
+    "greek": "ο μάγειρας",
+    "ukrainian": "кухар",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "7845592d-ec27-41ad-87e4-98a16bc3ba06",
+    "greek": "πεινασμένος",
+    "ukrainian": "голодний",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "5d15e420-ed2a-45c2-9266-2a7d9073b6db",
+    "greek": "πολλοί / πολλές",
+    "ukrainian": "багато; численні",
+    "type": "word",
+    "source": "michalis"
+  },
+  {
+    "id": "d52c408a-039a-4f7c-b899-28b9cadc3535",
+    "greek": "Πώς πηγαίνει στη δουλειά;",
+    "ukrainian": "Як він добирається на роботу?",
+    "type": "question",
+    "source": "michalis"
+  },
+  {
+    "id": "ee88c948-1834-4534-8e30-5e85adb07a4d",
+    "greek": "Τι δουλειά κάνει ο Μιχάλης;",
+    "ukrainian": "Ким працює Міхаліс?",
+    "type": "question",
+    "source": "michalis"
+  },
+  {
+    "id": "4e7e2633-e086-4303-8516-58be87c4b8f8",
+    "greek": "όταν μιλάει",
+    "ukrainian": "коли розмовляє",
+    "type": "phrase",
+    "source": "michalis"
+  }
+]

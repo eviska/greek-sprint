@@ -10,6 +10,7 @@ const TYPE_LABELS = { phrase: 'Коротка фраза', word: 'Слово', q
 const ROUND_SECONDS = 60;
 let cards = [];
 let stories = [];
+let currentStory = null;
 let progress = { version: 1, cards: {}, totals: { sessions: 0, answers: 0, correct: 0, incorrect: 0 } };
 let seconds = ROUND_SECONDS;
 let score = 0;
@@ -19,7 +20,6 @@ let current = null;
 let history = [];
 let recentIds = [];
 let locked = false;
-let audio = null;
 let writeQueue = Promise.resolve();
 let vocabularyPage = 0;
 let readingReturn = 'intro';
@@ -304,23 +304,7 @@ function pickCard() {
 }
 
 function playSound(correct) {
-  try {
-    audio ||= new (window.AudioContext || window.webkitAudioContext)();
-    const now = audio.currentTime;
-    const notes = correct ? [660, 880] : [440, 554, 659];
-    notes.forEach((hz, i) => {
-      const oscillator = audio.createOscillator();
-      const gain = audio.createGain();
-      oscillator.type = 'sine';
-      oscillator.frequency.value = hz;
-      gain.gain.setValueAtTime(0.0001, now + i * 0.09);
-      gain.gain.exponentialRampToValueAtTime(0.12, now + i * 0.09 + 0.025);
-      gain.gain.exponentialRampToValueAtTime(0.0001, now + i * 0.09 + 0.19);
-      oscillator.connect(gain).connect(audio.destination);
-      oscillator.start(now + i * 0.09);
-      oscillator.stop(now + i * 0.09 + 0.21);
-    });
-  } catch (_) { /* звук браузера може бути недоступний */ }
+  window.playSprintSound?.(correct);
 }
 
 function answer(choice) {
@@ -418,7 +402,26 @@ function renderStories() {
 
 function renderLessons() {
   const list = $('lesson-list'); list.replaceChildren();
-  lessons.forEach(lesson => {
+  const typeFilter = $('lesson-type-filter');
+  const topicFilter = $('lesson-topic-filter');
+  const addOptions = (select, allLabel, values) => {
+    const selected = select.value || 'all';
+    select.replaceChildren(new Option(allLabel, 'all'));
+    [...new Set(values.filter(Boolean))].sort((a,b) => a.localeCompare(b,'uk')).forEach(value => select.add(new Option(value,value)));
+    select.value = [...select.options].some(option => option.value === selected) ? selected : 'all';
+  };
+  addOptions(typeFilter, 'Усі типи', lessons.map(lesson => lesson.materialType || 'PDF-матеріал'));
+  addOptions(topicFilter, 'Усі теми', lessons.flatMap(lesson => lesson.topics || []));
+  const query = $('lesson-search').value.trim().toLocaleLowerCase('uk');
+  const visibleLessons = lessons.filter(lesson => {
+    const type = lesson.materialType || 'PDF-матеріал';
+    if (typeFilter.value !== 'all' && type !== typeFilter.value) return false;
+    if (topicFilter.value !== 'all' && !(lesson.topics || []).includes(topicFilter.value)) return false;
+    const searchable = [lesson.title, lesson.level, lesson.description, type, ...(lesson.topics || [])].join(' ').toLocaleLowerCase('uk');
+    return !query || searchable.includes(query);
+  });
+  $('lesson-empty').classList.toggle('hidden', visibleLessons.length > 0);
+  visibleLessons.forEach(lesson => {
     const state = progress.lessons?.[lesson.id] || { completed: [] };
     const link = document.createElement('a');
     link.className = 'story-choice lesson-choice';
@@ -426,8 +429,14 @@ function renderLessons() {
     const title = document.createElement('strong'); title.textContent = lesson.title;
     const detail = document.createElement('span');
     detail.textContent = `${lesson.level} · ${state.completed?.length || 0} з ${lesson.exercises.length} вправ позначено виконаними`;
+    const tags = document.createElement('span'); tags.className = 'material-tags';
+    [lesson.materialType || 'PDF-матеріал', ...(lesson.topics || [])].forEach((value, index) => {
+      const tag = document.createElement('span'); tag.className = 'material-tag'; tag.textContent = value;
+      if (index === 0) tag.classList.add('material-type-tag');
+      tags.append(tag);
+    });
     const action = document.createElement('span'); action.className = 'lesson-open-label'; action.textContent = 'Відкрити повний урок →';
-    link.append(title, detail, action); list.append(link);
+    link.append(title, detail, tags, action); list.append(link);
   });
 }
 function openLessons() {
@@ -624,7 +633,127 @@ function appendStoryLine(container, story, line) {
   if (plainStart < line.length) container.append(document.createTextNode(line.slice(plainStart)));
 }
 
+function normalizedPhraseChars(value) {
+  return Array.from(value.trim().replace(/\s+/g, ' ').toLocaleLowerCase('el'));
+}
+
+function phraseAlignment(expected, actual) {
+  const target = normalizedPhraseChars(expected);
+  const typed = normalizedPhraseChars(actual);
+  const dp = Array.from({ length: target.length + 1 }, () => Array(typed.length + 1).fill(0));
+  for (let i = target.length - 1; i >= 0; i--) {
+    for (let j = typed.length - 1; j >= 0; j--) {
+      dp[i][j] = target[i] === typed[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+    }
+  }
+  const targetMatched = new Set();
+  const typedMatched = new Set();
+  let i = 0, j = 0;
+  while (i < target.length && j < typed.length) {
+    if (target[i] === typed[j]) { targetMatched.add(i++); typedMatched.add(j++); }
+    else if (dp[i + 1][j] >= dp[i][j + 1]) i++;
+    else j++;
+  }
+  return { targetMatched, typedMatched, exact: target.length === typed.length && targetMatched.size === target.length };
+}
+
+function appendMarkedText(container, value, matched, className) {
+  Array.from(value).forEach((character, index) => {
+    const span = document.createElement('span');
+    span.textContent = character;
+    if (!matched.has(index)) span.className = className;
+    container.append(span);
+  });
+}
+
+function renderSentenceWriting(story) {
+  const cardTranslations = new Map(cards.map(card => [card.greek.trim(), card.ukrainian]));
+  const practiceParagraphs = [];
+  for (const paragraph of story.paragraphs) {
+    if (/^(?:Και τώρα κάποιες ερωτήσεις|Και τώρα ερωτήσεις|Ερωτήσεις)(?:[.!?;\s]|$)/i.test(paragraph.trim())) break;
+    practiceParagraphs.push(paragraph);
+  }
+  const sentences = story.writingPractice?.sentences?.length
+    ? story.writingPractice.sentences
+    : practiceParagraphs.flatMap((paragraph, paragraphIndex) => {
+      const parts = paragraph.split(/(?<=[.!?;])\s+/u).map(part => part.replace(/^\d+\.\s*/, '').trim()).filter(part => part && !/^\d+\.$/.test(part) && /[.!?;]$/.test(part));
+      const translatedParts = (story.translation?.[paragraphIndex] || '').split(/(?<=[.!?;])\s+/u).map(part => part.trim()).filter(Boolean);
+      return parts.map(part => ({
+        greek: part,
+        ukrainian: parts.length === translatedParts.length && translatedParts.length
+          ? translatedParts[parts.indexOf(part)]
+          : cardTranslations.get(part)
+      }));
+    });
+  const section = $('sentence-writing');
+  const list = $('sentence-writing-list');
+  section.classList.toggle('hidden', sentences.length === 0);
+  list.replaceChildren();
+  sentences.forEach((sentence, index) => {
+    const row = document.createElement('article');
+    row.className = 'sentence-writing-row';
+    const number = document.createElement('span');
+    number.className = 'sentence-writing-number';
+    number.textContent = `${index + 1}.`;
+    const content = document.createElement('div');
+    content.className = 'sentence-writing-content';
+    const prompt = document.createElement('p');
+    prompt.className = 'sentence-writing-prompt';
+    prompt.lang = 'el';
+    prompt.textContent = sentence.greek;
+    const input = document.createElement('input');
+    input.className = 'sentence-writing-input';
+    input.type = 'text'; input.lang = 'el'; input.autocomplete = 'off'; input.autocapitalize = 'off'; input.spellcheck = false;
+    input.placeholder = 'Передрукуй речення…';
+    const feedback = document.createElement('p');
+    feedback.className = 'sentence-writing-feedback';
+    feedback.setAttribute('aria-live', 'polite');
+    const controls = document.createElement('div');
+    controls.className = 'sentence-writing-controls';
+    const toggle = document.createElement('button');
+    toggle.type = 'button'; toggle.className = 'secondary small-button'; toggle.textContent = 'Писати з української';
+    const check = document.createElement('button');
+    check.type = 'button'; check.className = 'yes small-button'; check.textContent = 'Показати помилки';
+    let source = 'greek';
+    if (!sentence.ukrainian) toggle.classList.add('hidden');
+    toggle.addEventListener('click', () => {
+      source = source === 'greek' ? 'ukrainian' : 'greek';
+      prompt.textContent = source === 'greek' ? sentence.greek : sentence.ukrainian;
+      prompt.lang = source === 'greek' ? 'el' : 'uk';
+      toggle.textContent = source === 'greek' ? 'Писати з української' : 'Показати грецьку';
+      feedback.replaceChildren();
+    });
+    check.addEventListener('click', () => {
+      feedback.replaceChildren();
+      feedback.className = 'sentence-writing-feedback';
+      const { targetMatched, typedMatched, exact } = phraseAlignment(sentence.greek, input.value);
+      const status = document.createElement('strong');
+      status.textContent = exact ? 'Збігається точно ✓' : 'Червоним позначено місця для виправлення';
+      feedback.append(status);
+      if (!exact) {
+        const attemptLine = document.createElement('span');
+        attemptLine.className = 'phrase-writing-diff-line';
+        const attemptLabel = document.createElement('small'); attemptLabel.textContent = 'Твоя спроба: ';
+        attemptLine.append(attemptLabel);
+        appendMarkedText(attemptLine, input.value.trim() || 'порожньо', typedMatched, 'phrase-writing-error');
+        feedback.append(attemptLine);
+      }
+      const answerLine = document.createElement('span');
+      answerLine.className = 'phrase-writing-diff-line';
+      const answerLabel = document.createElement('small'); answerLabel.textContent = 'Грецький оригінал: ';
+      answerLine.append(answerLabel);
+      appendMarkedText(answerLine, sentence.greek, targetMatched, 'phrase-writing-error');
+      feedback.append(answerLine);
+    });
+    controls.append(toggle, check);
+    content.append(prompt, input, controls, feedback);
+    row.append(number, content);
+    list.append(row);
+  });
+}
+
 function openStory(story) {
+  currentStory = story;
   $('story-title').textContent = story.title;
   $('story-perspective').textContent = story.perspective;
   const text = $('story-text');
@@ -634,6 +763,7 @@ function openStory(story) {
     appendStoryLine(paragraph, story, line);
     text.append(paragraph);
   }
+  renderSentenceWriting(story);
   $('story-list-view').classList.add('hidden');
   $('story-reader').classList.remove('hidden');
 }
@@ -744,6 +874,9 @@ $('start').addEventListener('click', beginRound);
 $('again').addEventListener('click', beginRound);
 $('open-reading').addEventListener('click', () => openReading('intro'));
 $('open-lessons').addEventListener('click', openLessons);
+$('lesson-search').addEventListener('input', renderLessons);
+$('lesson-type-filter').addEventListener('change', renderLessons);
+$('lesson-topic-filter').addEventListener('change', renderLessons);
 $('lessons-home').addEventListener('click', () => { lessonsPanel.classList.add('hidden'); intro.classList.remove('hidden'); });
 $('game-reading').addEventListener('click', () => openReading('game'));
 $('result-reading').addEventListener('click', () => openReading('result'));
@@ -790,6 +923,15 @@ $('reading-home').addEventListener('click', () => {
 $('back-to-stories').addEventListener('click', () => {
   $('story-reader').classList.add('hidden');
   $('story-list-view').classList.remove('hidden');
+});
+$('story-spelling-link').addEventListener('click', () => {
+  if (!currentStory) return;
+  try {
+    sessionStorage.setItem('greek-sprint:writing-source', JSON.stringify({
+      title: currentStory.title,
+      text: currentStory.paragraphs.join('\n')
+    }));
+  } catch {}
 });
 $('true').addEventListener('click', () => answer(true));
 $('false').addEventListener('click', () => answer(false));

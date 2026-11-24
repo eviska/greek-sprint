@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3ee">
   <title>Грецький спринт</title>
-  <link rel="stylesheet" href="styles.css?v=6">
-  <script src="app.js?v=6" defer></script>
+  <link rel="stylesheet" href="styles.css?v=13">
+  <script src="sprint-sound.js?v=1" defer></script>
+  <script src="app.js?v=13" defer></script>
 </head>
 <body>
   <main class="app">
-    <header><div class="brand">ΕΛΛΗΝΙΚΑ <span>·</span> СПРИНТ</div><div class="tag">уроки · читання · словник · спринт</div></header>
+    <header><div class="brand">ΕΛΛΗΝΙΚΑ <span>·</span> СПРИНТ</div><div class="tag">уроки · читання · словник · спринт · письмо</div></header>
     <section class="panel" id="intro">
       <div class="start">
         <p class="label">Швидка практика</p>
@@ -33,6 +34,7 @@
           <button class="secondary" id="open-lessons" disabled>Уроки</button>
           <button class="secondary" id="open-vocabulary" disabled>Словник карток</button>
           <button class="secondary" id="open-writing" disabled>Письмо</button>
+          <a class="secondary home-link" href="writing-generator.html">Літерне полювання</a>
           <a class="secondary home-link" href="grammar.html">Граматика</a>
         </div>
         <p class="load-error hidden" id="load-error"></p>
@@ -67,6 +69,12 @@
     <section class="panel hidden" id="lessons">
       <div class="reading-head"><div><p class="label">Навчальні матеріали</p><h1>Уроки</h1></div><button class="secondary small-button" id="lessons-home">← До спринту</button></div>
       <p class="reading-hint">Кожен урок зберігається окремо. Відповіді, прогрес і чернетка письмового завдання зберігаються локально.</p>
+      <div class="lesson-filters">
+        <label>Знайти матеріал<input id="lesson-search" type="search" placeholder="Назва або тема"></label>
+        <label>Тип<select id="lesson-type-filter"><option value="all">Усі типи</option></select></label>
+        <label>Тема<select id="lesson-topic-filter"><option value="all">Усі теми</option></select></label>
+      </div>
+      <p class="reading-hint hidden" id="lesson-empty">За цими фільтрами матеріалів не знайдено.</p>
       <div class="story-list" id="lesson-list"></div>
     </section>
     <section class="panel hidden" id="reading">
@@ -80,6 +88,13 @@
         <p class="label" id="story-perspective"></p>
         <h2 id="story-title"></h2>
         <div class="story-text" id="story-text" lang="el"></div>
+        <a class="secondary small-button story-spelling-link" id="story-spelling-link" href="writing-generator.html?from=story">Влаштувати полювання на голосні →</a>
+        <section class="sentence-writing hidden" id="sentence-writing" aria-labelledby="sentence-writing-title">
+          <p class="label">Окрема письмова практика</p>
+          <h3 id="sentence-writing-title">Передрукуй текст реченнями</h3>
+          <p class="phrase-writing-hint">Можеш передруковувати з грецького оригіналу або сховати його й писати за українським перекладом.</p>
+          <div class="sentence-writing-list" id="sentence-writing-list"></div>
+        </section>
       </article>
     </section>
     <section class="panel hidden" id="vocabulary">

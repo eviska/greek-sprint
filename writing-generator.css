@@ -1,0 +1,43 @@
+body { display:block;padding:24px }
+.writing-generator-app { width:min(100%,900px);margin:0 auto }
+.brand-link { color:var(--ink);text-decoration:none }
+.writing-generator-panel { text-align:left }
+.writing-generator-panel .reading-head { margin-bottom:12px }
+.reading-head h1 { margin:0;font-size:clamp(25px,4vw,34px);line-height:1.2 }
+.generator-back { display:inline-flex;align-items:center;text-decoration:none;white-space:nowrap }
+.writing-generator-intro { margin:0 0 18px;color:var(--muted);max-width:700px }
+.writing-generator-source { margin:0 0 12px;padding:9px 12px;border-radius:9px;background:#edf3ed;color:var(--green);font-size:13px;font-weight:650 }
+.generator-label { display:block;margin:0 0 7px;font-size:14px;font-weight:750 }
+#generator-text { display:block;width:100%;min-height:150px;padding:14px 15px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);font:18px/1.65 Georgia,"Times New Roman",serif;resize:vertical }
+#generator-text:focus { outline:2px solid #8eb49a;outline-offset:1px }
+.generator-options { display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:15px 0 12px;padding:13px;border:1px solid var(--line);border-radius:12px;background:#faf9f5 }
+.generator-options legend { padding:0 5px;font-size:13px;font-weight:750 }
+.generator-options label:not(.density-label) { display:inline-flex;align-items:center;gap:5px;padding:7px 10px;border:1px solid var(--line);border-radius:9px;background:#fffefa;font-size:13px;font-weight:700 }
+.generator-options input { accent-color:var(--green) }
+.generator-options label span { color:var(--muted);font-weight:500 }
+.density-label { margin-left:auto;color:var(--muted);font-size:13px }
+.generator-options select { min-height:38px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;background:#fffefa;color:var(--ink);font:inherit;font-size:13px }
+.generator-options button { min-height:40px }
+.generator-keyboard { display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:12px 0;color:var(--muted);font-size:12px }
+.generator-keyboard button { min-height:34px;min-width:36px;padding:5px 9px;border:1px solid var(--line);border-radius:7px;background:#fffefa;color:var(--ink);font:600 16px Georgia,"Times New Roman",serif;cursor:pointer }
+.generator-result-toolbar { display:flex;justify-content:space-between;align-items:center;gap:12px;margin:16px 0 0;padding-top:13px;border-top:1px solid var(--line);color:var(--green);font-size:14px }
+.generator-result-toolbar>div { display:flex;flex-wrap:wrap;gap:7px }
+.generator-result-toolbar button { min-height:38px }
+.generator-output { min-height:76px;margin-top:12px;padding:18px;border:1px solid var(--line);border-radius:12px;background:#faf9f5;color:var(--ink);font:clamp(18px,2.5vw,22px)/2 Georgia,"Times New Roman",serif;white-space:pre-wrap;overflow-wrap:anywhere }
+.generator-placeholder { margin:0;color:var(--muted);font:14px/1.5 ui-sans-serif,system-ui,sans-serif;text-align:center }
+.generator-gap { display:inline-block;min-width:48px;min-height:34px;margin:0 2px;padding:2px 3px;border:0;border-bottom:2px solid #aab9ac;border-radius:4px;background:#fffefa;color:var(--ink);font:600 18px/1.35 Georgia,"Times New Roman",serif;text-align:center;vertical-align:baseline }
+.generator-gap::placeholder { color:#869286;opacity:.58 }
+.generator-gap:focus { outline:2px solid #8eb49a;outline-offset:1px }
+.generator-gap.correct { border-color:#23734c;background:#e5f2e8;color:#23734c }
+.generator-gap.incorrect { border-color:#a33f33;background:#fae9e6;color:#a33f33 }
+.generator-feedback { min-height:22px;margin:8px 0 0;color:var(--muted);font-size:13px }
+.generator-toast { position:fixed;right:20px;bottom:20px;z-index:5;max-width:calc(100vw - 40px);padding:10px 15px;border-radius:9px;background:#25251f;color:white;font-size:13px;opacity:0;transform:translateY(8px);pointer-events:none;transition:.18s }
+.generator-toast.show { opacity:1;transform:translateY(0) }
+@media(max-width:600px) {
+  body { padding:12px }
+  .writing-generator-panel { padding:19px 15px }
+  .density-label { flex-basis:100%;margin:0 }
+  .generator-options select { flex:1;min-width:160px }
+  .generator-options button { flex-basis:100% }
+  .generator-result-toolbar { align-items:flex-start;flex-direction:column }
+}

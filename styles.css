@@ -58,11 +58,34 @@ kbd { border:1px solid var(--line); background:#faf9f5; border-radius:5px; paddi
 .story-choice { display:flex;flex-direction:column;align-items:flex-start;text-align:left;width:100%;min-height:0;color:var(--ink);background:#f7f6f1;border:1px solid var(--line);padding:16px 18px }
 .lesson-choice { text-decoration:none }
 .lesson-open-label { color:var(--green)!important;font-weight:700!important }
+.lesson-filters { display:grid;grid-template-columns:minmax(0,1.5fr) repeat(2,minmax(0,1fr));gap:10px;margin:0 0 16px;text-align:left }
+.lesson-filters label { display:grid;gap:5px;color:var(--muted);font-size:13px }
+.lesson-filters input,.lesson-filters select { width:100%;min-height:42px;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:#fffefa;color:var(--ink);font:inherit }
+.material-tags { display:flex!important;flex-direction:row!important;flex-wrap:wrap;gap:6px;margin-top:9px!important }
+.material-tag { padding:3px 8px;border:1px solid var(--line);border-radius:999px;background:#fffefa;color:var(--muted)!important;font-size:11px!important;line-height:1.5 }
+.material-tag:first-child { border-color:#cbdccf;background:var(--pale);color:var(--green)!important;font-weight:700!important }
+.story-choice .material-tag { margin:0;color:var(--muted);font-size:11px;font-weight:500 }
 .story-choice strong { font-size:16px }
 .story-choice span { margin-top:3px;color:var(--muted);font-size:13px;font-weight:400 }
 .story-reader { text-align:left }
 .back-stories { margin-bottom:22px }
 .story-reader h2 { font-size:23px;line-height:1.25;margin:0 0 22px }
+.story-spelling-link { display:inline-flex;margin-top:18px;color:var(--ink);text-decoration:none;font-weight:700 }
+.sentence-writing { margin-top:30px;padding-top:23px;border-top:1px solid var(--line);text-align:left }
+.sentence-writing h3 { margin:0;font-size:20px }
+.phrase-writing-hint { margin:6px 0 14px;color:var(--muted);font-size:14px }
+.sentence-writing-list { display:grid;gap:8px }
+.sentence-writing-row { display:grid;grid-template-columns:27px minmax(0,1fr);gap:9px;padding:10px 11px;border:1px solid var(--line);border-radius:10px;background:#fffefa }
+.sentence-writing-number { padding-top:2px;color:var(--muted);font-size:13px;font-weight:700 }
+.sentence-writing-content { min-width:0 }
+.sentence-writing-prompt { margin:0 0 7px;font:600 17px/1.45 Georgia,"Times New Roman",serif;color:var(--ink) }
+.sentence-writing-input { width:100%;min-height:38px;padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:white;color:var(--ink);font:16px/1.4 Georgia,"Times New Roman",serif }
+.sentence-writing-controls { display:flex;gap:7px;flex-wrap:wrap;margin-top:7px }
+.sentence-writing-controls button { min-height:34px;padding:7px 10px;font-size:12px }
+.sentence-writing-feedback { margin:5px 0 0;color:var(--muted);font-size:12px }
+.phrase-writing-diff-line { display:block;margin-top:7px;color:var(--ink);font:18px/1.5 Georgia,"Times New Roman",serif }
+.phrase-writing-diff-line small { color:var(--muted);font:600 12px/1.4 system-ui,sans-serif }
+.phrase-writing-error { color:#bd3c35;background:#fde5e1;border-radius:3px;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px }
 .story-text { font:clamp(19px,3vw,22px)/1.8 Georgia,"Times New Roman",serif;color:var(--ink) }
 .story-text p { margin:0 0 8px }
 .story-text p:last-child { margin-bottom:0 }
@@ -150,6 +173,7 @@ kbd { border:1px solid var(--line); background:#faf9f5; border-radius:5px; paddi
 .writing-card>#writing-next { min-height:46px;margin-top:8px }
 .writing-footnote { margin:16px 0 0;color:var(--muted);font-size:12px }
 @media(max-width:480px) {
+  .lesson-filters { grid-template-columns:1fr }
   .lesson-nav button { flex:1 }
   .lesson-order-row { align-items:flex-start;font-size:14px }
   .lesson-order-row>span:last-child { flex-direction:column }

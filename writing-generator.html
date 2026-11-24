@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>Літерне полювання · Грецький спринт</title>
+  <link rel="stylesheet" href="styles.css?v=13">
+  <link rel="stylesheet" href="writing-generator.css?v=1">
+  <script src="writing-generator.js?v=1" defer></script>
+</head>
+<body>
+  <main class="app writing-generator-app">
+    <header>
+      <a class="brand brand-link" href="index.html">ΕΛΛΗΝΙΚΑ <span>·</span> СПРИНТ</a>
+      <div class="tag">письмо · орфографія</div>
+    </header>
+    <section class="panel writing-generator-panel">
+      <div class="reading-head">
+        <div><p class="label">Інтерактивна вправа</p><h1>Літерне полювання</h1></div>
+        <a class="secondary small-button generator-back" id="generator-back" href="index.html">← Головна</a>
+      </div>
+      <p class="writing-generator-intro">Встав грецький текст або почни з тексту з бібліотеки. У пропусках буде показано звук, а ти впишеш його грецьке написання.</p>
+      <p class="writing-generator-source hidden" id="writing-generator-source"></p>
+      <label class="generator-label" for="generator-text">Твій грецький текст</label>
+      <textarea id="generator-text" lang="el" spellcheck="false" placeholder="Наприклад: Δουλεύω στο γραφείο και μετά πίνω καφέ."></textarea>
+
+      <fieldset class="generator-options">
+        <legend>Які звуки тренувати?</legend>
+        <label><input type="checkbox" id="mask-i" checked> [і] <span>ι, η, υ, ει, οι, υι</span></label>
+        <label><input type="checkbox" id="mask-o" checked> [о] <span>ο, ω</span></label>
+        <label><input type="checkbox" id="mask-e"> [е] <span>ε, αι</span></label>
+        <label class="density-label" for="mask-density">Скільки пропусків</label>
+        <select id="mask-density">
+          <option value="0.5">Приблизно половина</option>
+          <option value="0.8">Більшість</option>
+          <option value="1">Усі вибрані звуки</option>
+          <option value="endings">Лише наприкінці слів</option>
+        </select>
+        <button class="yes small-button" id="generate-exercise" type="button">Створити вправу →</button>
+      </fieldset>
+
+      <div class="generator-keyboard" aria-label="Грецькі літери для вставлення">
+        <span>Швидке введення:</span>
+        <button type="button" data-char="ι">ι</button><button type="button" data-char="η">η</button><button type="button" data-char="υ">υ</button>
+        <button type="button" data-char="ει">ει</button><button type="button" data-char="οι">οι</button><button type="button" data-char="υι">υι</button>
+        <button type="button" data-char="ο">ο</button><button type="button" data-char="ω">ω</button><button type="button" data-char="ε">ε</button><button type="button" data-char="αι">αι</button>
+      </div>
+
+      <div class="generator-result-toolbar hidden" id="generator-result-toolbar">
+        <strong id="generator-score">0 / 0</strong>
+        <div><button type="button" class="secondary small-button" id="check-exercise">Перевірити</button><button type="button" class="secondary small-button" id="reveal-exercise">Показати відповіді</button></div>
+      </div>
+      <div class="generator-output" id="generator-output" aria-live="polite">
+        <p class="generator-placeholder">Тут з’явиться твій текст із пропусками.</p>
+      </div>
+      <p class="generator-feedback" id="generator-feedback" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <div class="generator-toast" id="generator-toast" role="status" aria-live="polite"></div>
+</body>
+</html>
